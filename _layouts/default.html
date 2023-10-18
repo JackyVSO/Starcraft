@@ -10,8 +10,18 @@
         padding: 20px; /* Add padding for spacing */
         border-radius: 10px; /* Optional: Add rounded corners for a nicer appearance */
       }
+     .header {
+            position: fixed; /* Set the header to a fixed position */
+            top: 0; /* Position it at the top of the viewport */
+            width: 100%; /* Make it span the entire width */
+            background-color: #fff; /* Set a background color for the header */
+            z-index: 1; /* Ensure it's on top of other content */
+        }
     </style>
 </head>
+<div class="header"> 
+    <img src="https://drive.google.com/file/d/1bSgOoDjzCXPOsR4EAnc3awouTFGx74iK/view?usp=share_link">
+</div>
 <body>
 
 {{ content }}
