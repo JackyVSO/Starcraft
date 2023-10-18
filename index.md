@@ -15,7 +15,7 @@ This is some **Markdown** content within an HTML documesdfdsaaaaa[p[Iaaant.
     font-family: 'IBM Plex Mono', sans-serif;
 }
   .table {
-    width: 80%;
+    width: 60%;
     border-collapse: collapse;
     margin: 20px auto;
   }
