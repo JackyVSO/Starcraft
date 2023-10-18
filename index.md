@@ -5,7 +5,198 @@ title: whatever
 
 # Markdown Heading
 
-This is some **Markdown** content within an HTML documesdfdsaaaaaaaant.
+This is some **Markdown** content within an HTML documesdfdsaaaaa[p[Iaaant.
 
 - List item 1
 - List item 2
+
+<style>
+* {
+    font-family: 'IBM Plex Mono', sans-serif;
+}
+  .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  .table th, .table td {
+    padding: 8px 12px;
+    text-align: center;
+  }
+  .table th {
+    background-color: #a2afbe;
+    color: #000000;
+  }
+  .table-striped tbody tr:nth-child(odd) {
+    background-color: #d2dfee;
+  }
+  .table-striped tr:nth-child(even) {
+    background-color: #e2effe;
+}
+  .table-bordered {
+    border: 1px solid #ccc;
+  }
+</style>
+<table border="1" class="dataframe table table-striped table-bordered">
+  <thead>
+    <tr style="text-align: right;"><table border="1" class="dataframe table table-striped table-bordered">
+    <thead>
+    <tr>
+    <th colspan="3" style="font-size: 24px; text-align: center;">Total games played (ASL+KSL)</th>
+</tr><th>Rank</th><th>Player</th><th>Games</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">SoulKey</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">200</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Mini</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">193</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Light</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">170</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Rain</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">165</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Best</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">163</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Sharp</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">157</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Snow</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">157</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">hero</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">151</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Queen</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">140</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Rush</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">135</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">FlaSh</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">118</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Last</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">117</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Action</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">115</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Larva</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">113</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Bisu</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">111</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Mind</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">108</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Soma</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">101</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">18</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Shuttle</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">91</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">19</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Stork</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">91</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">20</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Jaedong</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">88</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">JyJ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">84</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">22</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Shine</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">73</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">EffOrt</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">72</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">RoyaL</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">71</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Mong</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">58</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Sea</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">53</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">27</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">MIsO</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">28</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">sSak</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">42</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Horang2</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">42</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Sacsri</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">31</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Modesty</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">40</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Movie</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">33</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Ample</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">34</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">BarrackS</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Jaehoon</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">32</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">GuemChi</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">31</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">37</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">free</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Killer</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">29</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Leta</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Calm</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">41</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Piano</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">19</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">42</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">ggaemo</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">43</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">ForGG</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">44</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Hyuk</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">45</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">beast</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">46</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">HyuN</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">nOOb</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">48</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">815</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">49</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Brain</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">8</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">50</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Ss1nz</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">51</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">ZeLoT</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">52</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Ruin</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">7</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">53</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">HiyA</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">6</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">54</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Pusan</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">5</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">55</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Sky</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">56</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Tyson</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">5</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">57</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">YSC</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">58</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">BishOp</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">5</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">59</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Lazy</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">4</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">60</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">firebathero</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">61</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">ByuL</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">4</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">62</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Iris</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">3</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">63</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">NaDa</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">64</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Yoon</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">3</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">65</span></td><td style="background-color: #d2dfee;"><span style="color: #edd224;">Hint</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">66</span></td><td style="background-color: #e2effe;"><span style="color: #edd224;">Maru</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">67</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Force(Name)</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">68</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Terror</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">69</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">PURPOSE</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">70</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Tinkle</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">71</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">soso</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">72</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Scan</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">73</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;">Speed</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">74</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">JJabNewDa</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">75</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">ivOry</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">76</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Yerim2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">0</span></td>
+    </tr>  </tbody>
+</table>
