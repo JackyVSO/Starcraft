@@ -43,7 +43,7 @@ This is some **Markdown** content within an HTML documesdfdsaaaaa[p[Iaaant.
     <thead>
     <tr>
     <th colspan="3" style="font-size: 24px; text-align: center;">Total games played (ASL+KSL)</th>
-</tr><th>Rank</th><th>Player</th><th>Games</th>    </tr>
+</tr><th>Rank</th><th>Player</th><th>Games</th>
   </thead>
   <tbody>
   <tr>
