@@ -143,9 +143,9 @@ First, let's look at how game duration correlates to matchup winrates.
 
 <h3 id="11">Zerg rules the early game but struggles in the midgame. The late game is balanced.</h3>
 
-![TvP winrate by duration](images/11TvPwinratesbyduration.png "TvP winrate by time interval")
-![TvZ winrate by duration](images/11TvZwinratesbyduration.png "TvZ winrate by time interval")
-![PvZ winrate by duration](images/11PvZwinratesbyduration.png "PvZ winrate by time interval")
+<img src="./images/A11TvPwinratesbyduration.png" alt="TvP winrate by game duration" class="wide-image">
+<img src="./images/A11TvZwinratesbyduration.png" alt="TvZ winrate by game duration" class="wide-image">
+<img src="./images/A11PvZwinratesbyduration.png" alt="PvZ winrate by game duration" class="wide-image">
 
 We can see that if the game ends quickly, that bodes well for Zerg. In TvZ, there is a clear trend of early victories being Zerg, midgame victories being Terran, and the late game being very even. Long games are quite evenly split in all three matchups. PvZ has a similar trend but with semi-long games being once again Zerg-favored.
 
@@ -154,28 +154,6 @@ Moving on to spawn locations, we come to one of the most unambiguous findings of
 <h3 id="A10">Cross spawns is VERY BAD for Terran</h3>
 ... and amazing for Protoss.
 
-<style>
-    .table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    font-family: 'IBM Plex Mono', sans-serif;
-    }
-    .table th, .table td {
-    padding: 8px 12px;
-    text-align: center;
-    }
-    .table th {
-    background-color: #a2afbe;
-    color: #000000;
-    }
-    .table tbody {
-    background-color: #e2effe;
-    }
-    .table-bordered {
-    border: 1px solid #ccc;
-    }
-</style>
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
@@ -184,13 +162,12 @@ Moving on to spawn locations, we come to one of the most unambiguous findings of
     </thead>
     <tbody>
     <tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +7</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +21</b</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +7</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +21</b></span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Zerg +12</b</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Zerg +12</b></span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Zerg +13</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +17</b</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Zerg +13</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +17</b></span></td>
     </tr>  </tbody>
 </table>
-
 
 Now, if you're wondering why
