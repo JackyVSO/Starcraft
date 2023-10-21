@@ -102,8 +102,6 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 This table shows the overall winrate for each race across both of its non-mirror matchups. It seems to show that Protoss is the best race by a margin of 0.3 percentage points over Terran. It also seems to show that Terran is the 2nd best race. But since Artosis often points out that Terran only appears to be doing well because Flash is so good, I decided to check what the winrates would be without Flash. To make a fair comparison, I also removed the statistically best player for each of the other races (Rain for Protoss and Effort for Zerg), and this is what the updated figures look like:
 
 <table border="1" class="dataframe table table-striped table-bordered">
-  <thead>
-    <tr style="text-align: right;"><table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
     <th colspan="3" style="font-size: 24px; text-align: center;">Overall race winrates</th>
@@ -130,9 +128,9 @@ Now let's look at the winrates of the individual non-mirror matchups. The number
 
 <h4 id="#A11">.</h4>
 
-![TvP overall winrate](images/A11TvPoverallwinrate.png "TVP overall winrate")  
-![TvZ overall winrate](images/A11TvZoverallwinrate.png "TVZ overall winrate")  
-![PvZ overall winrates](images/A11PvZoverallwinrate.png "PVZ overall winrate")  
+![TvP overall winrate](./images/A11TvPoverallwinrate.png "TVP overall winrate")  
+![TvZ overall winrate](./images/A11TvZoverallwinrate.png "TVZ overall winrate")  
+![PvZ overall winrates](./images/A11PvZoverallwinrate.png "PVZ overall winrate")  
 
 While these figures are very unsurprising, it becomes a lot more interesting when you go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
 
