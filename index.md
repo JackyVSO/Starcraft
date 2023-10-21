@@ -54,9 +54,9 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 - [Group decider matches: winners' loser vs. losers' winner](#A8)
 <br/><br/>
 
-<h1 class="h1" id="#Matchups"> 1. Matchups</h1>
+<h1 class="h1" id="Matchups"> 1. Matchups</h1>
 <span style="font-size: 24px;"><i>Artosis is technically correct - the best kind of correct</i></span>
-<h4 id="#A2">.</h4>
+<h4 id="A2">.</h4>
 
 <style>
   .table {
@@ -123,21 +123,14 @@ So Terran does seem to be the worst race without Flash, but only 0.3 percentage 
 
 Now let's look at the winrates of the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggests that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
-
-
-
-<h4 id="#A11">.</h4>
-
-![TvP overall winrate](./images/A11TvPoverallwinrate.png "TVP overall winrate")  
-![TvZ overall winrate](./images/A11TvZoverallwinrate.png "TVZ overall winrate")  
-![PvZ overall winrates](./images/A11PvZoverallwinrate.png "PVZ overall winrate")  
+<h4 id="A11">.</h4>
+<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="265" height="auto">
+<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="265" height="auto">
+<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="265" height="auto">
 
 While these figures are very unsurprising, it becomes a lot more interesting when you go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
 
-
-
-
-<h4 id="#6">.</h4>
+<h4 id="6">.</h4>
 
 ![TvP winrate YoY](images/6TvPwinrates.png "TvP winrate 2016-2023")  
 ![TvZ winrate YoY](images/6TvZwinrates.png "TvP winrate 2016-2023")  
