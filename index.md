@@ -84,8 +84,6 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
   }
 </style>
 <table border="1" class="dataframe table table-striped table-bordered">
-  <thead>
-    <tr style="text-align: right;"><table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
     <th colspan="3" style="font-size: 24px; text-align: center;">Overall race winrates</th>
