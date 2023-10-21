@@ -3,8 +3,8 @@ layout: default
 title: Stats from the remastered era of pro Starcraft 1
 ---
 
-# Markdown Heading
-#### by Jacob Stubbe Østergaard / JackyVSO 
+# Stats from the remastered era of pro Starcraft 1
+#### by Jacob Stubbe Østergaard / JackyVSO  
 
 ## Introduction
 The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 20px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
@@ -56,7 +56,7 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 
 <h1 class="h1" id="Matchups"> 1. Matchups</h1>
 <span style="font-size: 24px;"><i>Artosis is technically correct - the best kind of correct</i></span>
-<h4 id="A2">.</h4>
+<h4 id="A2"></h4>
 
 <style>
   .table {
@@ -119,21 +119,78 @@ This table shows the overall winrate for each race across both of its non-mirror
 
 So Terran does seem to be the worst race without Flash, but only 0.3 percentage points below Zerg.  
 
-(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards.)  
+(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards. There is really only one thing that these numbers show very clearly, and that is that Starcraft is a remarkably balanced game - at least when played on carefully designed maps)  
 
-Now let's look at the winrates of the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggests that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
+Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
-<h4 id="A11">.</h4>
-<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="265" height="auto">
-<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="265" height="auto">
-<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="265" height="auto">
+<h4 id="A11"></h4>
+<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="265" height="auto" margin=0>
+<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="265" height="auto" margin=0>
+<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="265" height="auto" margin=0>
 
-While these figures are very unsurprising, it becomes a lot more interesting when you go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
+While these figures are very unsurprising, the story becomes a lot more interesting when we go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
 
-<h4 id="6">.</h4>
+<h4 id="6"></h4>
 
 ![TvP winrate YoY](images/6TvPwinrates.png "TvP winrate 2016-2023")  
 ![TvZ winrate YoY](images/6TvZwinrates.png "TvP winrate 2016-2023")  
 ![PvZ winrate YoY](images/6PvZwinrates.png "TvP winrate 2016-2023")  
 
-These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The pictures becomes still more nuanced when we take game duration and spawn locations into consideration.
+These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The pictures becomes still more nuanced when we take game duration and spawn locations into consideration.  
+First, let's look at how game duration correlates to matchup winrates. 
+
+*Note:because of the limited data available (only 400-500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*
+
+<h3 id="11">Zerg rules the early game but struggles in the midgame. The late game is balanced.</h3>
+
+![TvP winrate by duration](images/11TvPwinratesbyduration.png "TvP winrate by time interval")
+![TvZ winrate by duration](images/11TvZwinratesbyduration.png "TvZ winrate by time interval")
+![PvZ winrate by duration](images/11PvZwinratesbyduration.png "PvZ winrate by time interval")
+
+We can see that if the game ends quickly, that bodes well for Zerg. In TvZ, there is a clear trend of early victories being Zerg, midgame victories being Terran, and the late game being very even. Long games are quite evenly split in all three matchups. PvZ has a similar trend but with semi-long games being once again Zerg-favored.
+
+Moving on to spawn locations, we come to one of the most unambiguous findings of this study:
+
+<h3 id="A10">Cross spawns is VERY BAD for Terran</h3>
+... and amazing for Protoss.
+
+<style>
+    .table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: 'IBM Plex Mono', sans-serif;
+    }
+    .table th, .table td {
+    padding: 8px 12px;
+    text-align: center;
+    }
+    .table th {
+    background-color: #a2afbe;
+    color: #000000;
+    }
+    .table tbody {
+    background-color: #e2effe;
+    }
+    .table-bordered {
+    border: 1px solid #ccc;
+    }
+</style>
+<table border="1" class="dataframe table table-striped table-bordered">
+    <thead>
+    <tr>
+    <th colspan="8" style="font-size: 24px; text-align: center;">Effect of cross spawns in each matchup</th>
+</tr><tr style="text-align: right;"><th>Matchup</th><th>Adjacent spawns winrate</th><th>Cross spawns winrate</th><th>Net effect</th>    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +7</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +21</b</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +14</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Terran +2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Zerg +12</b</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Zerg +13</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Protoss +4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Protoss +17</b</span></td>
+    </tr>  </tbody>
+</table>
+
+
+Now, if you're wondering why
