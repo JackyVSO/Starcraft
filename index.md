@@ -7,7 +7,7 @@ title: Stats from the remastered era of pro Starcraft 1
 #### by Jacob Stubbe Østergaard / JackyVSO  
 
 ## Introduction
-The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 20px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
+The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
 
 Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from Liquipedia, while game duration and spawn location has been collected from AfreecaTV VODs.
 
@@ -124,9 +124,9 @@ So Terran does seem to be the worst race without Flash, but only 0.3 percentage 
 Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
 <h4 id="A11"></h4>
-<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="265" height="auto" margin=0>
-<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="265" height="auto" margin=0>
-<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="265" height="auto" margin=0>
+<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="255" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="255" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="255" height="auto" margin=0 style="display: inline;">
 
 While these figures are very unsurprising, the story becomes a lot more interesting when we go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
 
