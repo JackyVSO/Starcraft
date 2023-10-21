@@ -55,8 +55,8 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 <br/><br/>
 
 <h1 class="h1" id="#Matchups"> 1. Matchups</h1>
-<span style="font-size: 36px;">Artosis is technically correct - the best kind of correct</span>
-<h4 id="#A2"> Overall winrate for each race</h4>
+<span style="font-size: 24px;"><i>Artosis is technically correct - the best kind of correct</i></span>
+<h4 id="#A2"></h4>
 
 <style>
   .table {
@@ -101,7 +101,7 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
     </tr>  </tbody>
 </table>
 
-This table shows the overall winrate for each race across both of its non-mirror matchups. It seems to show that Protoss is the best race by a margin of 0.3 percentage points over Terran. It also seems to show that Terran is the 2nd best race. But since Artosis often points out that Terran only seems to be doing well because Flash is so good, I decided to check what the winrates would be without Flash. To make a fair comparison, I also removed the statistically best player for each of the other races (Rain for Protoss and Effort for Zerg), and this is what the updated figures look like:
+This table shows the overall winrate for each race across both of its non-mirror matchups. It seems to show that Protoss is the best race by a margin of 0.3 percentage points over Terran. It also seems to show that Terran is the 2nd best race. But since Artosis often points out that Terran only appears to be doing well because Flash is so good, I decided to check what the winrates would be without Flash. To make a fair comparison, I also removed the statistically best player for each of the other races (Rain for Protoss and Effort for Zerg), and this is what the updated figures look like:
 
 <table border="1" class="dataframe table table-striped table-bordered">
   <thead>
@@ -127,8 +127,18 @@ So Terran does seem to be the worst race without Flash, but only 0.3 percentage 
 
 Now let's look at the winrates of the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggests that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
-<h4 id="#A11"> Overall winrates for each non-mirror matchup</h4>
+<h4 id="#A11"></h4>
 
-![TvP overall winrate](images/A11TvPoverallwinrate.png, "TVP overall winrate")
-![TvZ overall winrate](images/A11TvZoverallwinrate.png, "TVZ overall winrate")
-![PvZ overall winrates](images/A11PvZoverallwinrate.png, "PVZ overall winrate")
+![TvP overall winrate](images/A11TvPoverallwinrate.png "TVP overall winrate")
+![TvZ overall winrate](images/A11TvZoverallwinrate.png "TVZ overall winrate")
+![PvZ overall winrates](images/A11PvZoverallwinrate.png "PVZ overall winrate")
+
+While these figures are very unsurprising, it becomes a lot more interesting when you go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
+
+<h4 id="#6"></h4>
+
+![TvP winrate YoY](images/6TvPwinrates.png "TvP winrate 2016-2023")
+![TvZ winrate YoY](images/6TvZwinrates.png "TvP winrate 2016-2023")
+![PvZ winrate YoY](images/6PvZwinrates.png "TvP winrate 2016-2023")
+
+These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The pictures becomes still more nuanced when we take game duration and spawn locations into consideration.
