@@ -143,9 +143,9 @@ First, let's look at how game duration correlates to matchup winrates.
 
 <h3 id="11">Zerg rules the early game but struggles in the midgame. The late game is balanced.</h3>
 
-<img src="./images/A11TvPwinratesbyduration.png" alt="TvP winrate by game duration" class="wide-image">
-<img src="./images/A11TvZwinratesbyduration.png" alt="TvZ winrate by game duration" class="wide-image">
-<img src="./images/A11PvZwinratesbyduration.png" alt="PvZ winrate by game duration" class="wide-image">
+<img src="./images/11TvPwinratesbyduration.png" alt="TvP winrate by game duration" class="wide-image">
+<img src="./images/11TvZwinratesbyduration.png" alt="TvZ winrate by game duration" class="wide-image">
+<img src="./images/11PvZwinratesbyduration.png" alt="PvZ winrate by game duration" class="wide-image">
 
 We can see that if the game ends quickly, that bodes well for Zerg. In TvZ, there is a clear trend of early victories being Zerg, midgame victories being Terran, and the late game being very even. Long games are quite evenly split in all three matchups. PvZ has a similar trend but with semi-long games being once again Zerg-favored.
 
