@@ -7,7 +7,7 @@ title: Stats from the remastered era of pro Starcraft 1
 #### by Jacob Stubbe Østergaard / JackyVSO 
 
 ## Introduction
-The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 16px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
+The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 20px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
 
 Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from Liquipedia, while game duration and spawn location has been collected from AfreecaTV VODs.
 
@@ -26,10 +26,16 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 - [Matchup winrates by game duration](#11)
 - [Effect of cross spawns on game duration for each matchup](#14)
 - [Effect of cross spawns on winrate for each matchup](#A10)
+
+
+
 ### 2. [Maps](#Maps)
 - [Matchup winrates by number of spawn locations](#7)
 - [Balance ranking of popular maps](#8)
 - [Tileset frequency](#A6)
+
+
+
 ### 3. [Players](#Players)
 - [Games played by each player](#1)
 - [Player winrates](#3)
@@ -37,6 +43,9 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 - [Elo graphs of top players](#5)
 - [Player winrates by game duration](#13)
 - [Average game duration by player](#12)
+
+
+
 ### 4. [Tournament Stats](#TournamentStats)
 - [Longest and shortest games in ASL/KSL history](#9)
 - [Bo5/Bo7 win probabilities by game outcomes](#A3)
@@ -121,5 +130,5 @@ Now let's look at the winrates of the individual non-mirror matchups. The number
 <h4 id="#A11"> Overall winrates for each non-mirror matchup</h4>
 
 ![TvP overall winrate](images/A11TvPoverallwinrate.png, "TVP overall winrate")
-![TvZ overall winrate](images/A11TvZoverallwinrate.png", "TVZ overall winrate")
-![PvZ overall winrates](images/A11PvZoverallwinrate.png", "PVZ overall winrate")
+![TvZ overall winrate](images/A11TvZoverallwinrate.png, "TVZ overall winrate")
+![PvZ overall winrates](images/A11PvZoverallwinrate.png, "PVZ overall winrate")
