@@ -3,12 +3,14 @@
 <head>
     <style>
       body {
-        background-color: #d2dfee; /* Set the background color for the entire document */
+            background-color: #d2dfee; /* Set the background color for the entire document */
+            color: #000000;
+            font-size: 12px;
       }
       .chart-container {
-        background-color: #d2dfee; /* Set the same background color for the container as the document */
-        padding: 20px; /* Add padding for spacing */
-        border-radius: 10px; /* Optional: Add rounded corners for a nicer appearance */
+            background-color: #d2dfee; /* Set the same background color for the container as the document */
+            padding: 20px; /* Add padding for spacing */
+            border-radius: 10px; /* Optional: Add rounded corners for a nicer appearance */
       }
      .header {
             position: fixed; /* Set the header to a fixed position */
@@ -17,10 +19,44 @@
             background-color: #d2dfee; /* Set a background color for the header */
             z-index: 1; /* Ensure it's on top of other content */
         }
+      .img {
+            max-width: 90%;
+            height: auto;
+      }
+      .a {
+            color: #350074;
+      }
+      .h1 {
+            font-size: 48px;
+      }
+      .table {
+            font-family: 'IBM Plex Mono', sans-serif;
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+      }
+      .table th, .table td {
+            padding: 8px 12px;
+            text-align: center;
+      }
+      .table th {
+            background-color: #a2afbe;
+            color: #000000;
+      }
+      .table-striped tbody tr:nth-child(odd) {
+            background-color: #d2dfee;
+      }
+      .table-striped tr:nth-child(even) {
+            background-color: #e2effe;
+      }
+      .table-bordered {
+            border: 1px solid #ccc;
+      }
     </style>
 </head>
+
 <div class="header"> 
-    <img src="images/20190212_185418.jpg">
+    <img src="images/topbar.jpg">
 </div>
 <body>
 
