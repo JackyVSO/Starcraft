@@ -54,7 +54,7 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 - [Group decider matches: winners' loser vs. losers' winner](#A8)
 <br/><br/>
 
-<h1 id="#Matchups"> 1. Matchups</h1>
+<h1 class="h1" id="#Matchups"> 1. Matchups</h1>
 <span style="font-size: 36px;">Artosis is technically correct - the best kind of correct</span>
 <h4 id="#A2"> Overall winrate for each race</h4>
 
@@ -121,11 +121,11 @@ This table shows the overall winrate for each race across both of its non-mirror
     </tr>  </tbody>
 </table>
 
-So Terran does seem to be the worst race without Flash, but only 0.3 percentage points below Zerg. 
+So Terran does seem to be the worst race without Flash, but only 0.3 percentage points below Zerg.  
 
-(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards.)
+(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards.)  
 
-Now let's look at the winrates of the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggests that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:
+Now let's look at the winrates of the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggests that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
 <h4 id="#A11"> Overall winrates for each non-mirror matchup</h4>
 
