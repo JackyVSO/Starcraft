@@ -183,9 +183,9 @@ Such strong discrepancies across 200+ games in each matchup on 4-player maps is 
 If that table began to reveal how circumstance-dependent the power dynamics between the races are, these charts should drive the point home. They show how matchup winrates are affect by whether it's a 2-player, 3-player or 4-player map:
 
 <h4 id="7"></h4>
-<img src="images/7TvPspawns.png" alt="TvP winrates by number of spawn locations" class="wide-image">
-<img src="images/7TvZspawns.png" alt="TvZ winrates by number of spawn locations" class="wide-image">
-<img src="images/7PvZspawns.png" alt="PvZ winrates by number of spawn locations" class="wide-image">
+<img src="images/7TvPspawns.png" alt="TvP winrates by number of spawn locations">
+<img src="images/7TvZspawns.png" alt="TvZ winrates by number of spawn locations">
+<img src="images/7PvZspawns.png" alt="PvZ winrates by number of spawn locations">
 
 The most notable thing here is just how lopsided TvP on 2-player maps is. Out of 116 games in the database, Terran has won 38 and Protoss has won 78. If TvP was never played on 2-player maps, it would be a Terran-favored matchup. Terran also fares better with more spawning locations against Zerg, although this is far less pronounced. This is consistent with another finding in the data, which was that *the bigger the map (by size in tiles), the better for Terran*. I have not included that figure here because it shows the same as the above but less markedly.
 PvZ, on the other hand, seems hardly to be affected by the number of spawning locations on the map at all. I'll leave it to more accomplished players to explain this difference.
