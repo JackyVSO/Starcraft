@@ -245,7 +245,7 @@ Since most of these maps have been in use for only one or two seasons, it isn't 
 So Sylphid appears to be the most balanced map yet made, closely followed by (In The Way of An) Eddy, whereas Gladiator is the least balanced - even though it's somehow perfectly balanced in TvZ. Looking at the scores for Vermeer, Polypoid and Circuit Breaker, we can see that what is sometimes termed "standard maps" are actually clearly Terran-favored, whereas more unusual maps might be less comfortable for Terran.
 
 <h1 id="Players">3. Players</h1>
-In this section, we'll abandon the bird's eye view and instead zoom in on how the individual Starcraft 1 pros have been faring against each other. A total of 76 players have qualified for ASL and/or KSL. Here they're listed according to how many tournament games they've played:
+In this section, we'll abandon the bird's eye view and instead zoom in on how the individual Starcraft 1 pros have been faring against each other. A total of 76 players have qualified for ASL and/or KSL at least once (27 Zerg, 26 Terran, 23 Protoss). Here they are, listed according to how many tournament games they've played:
 
 <h4 id="1"></h4>
 <table border="1" class="dataframe table table-striped table-bordered">
@@ -413,6 +413,7 @@ In this section, we'll abandon the bird's eye view and instead zoom in on how th
 Notably, the two finalists of this last ASL are also the two players with the most total games played in ASL and KSL.  
 Now let's take a look at the top players in each matchup:
 
+<h4 id="3"></h4>
 <div class="table-container">
 <table border="1" class="dataframe table table-striped table-bordered small-table">
   <thead>
@@ -522,4 +523,201 @@ Now let's take a look at the top players in each matchup:
 
 </div>
 
-dsfds
+<div class="table-container">
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+      <thead>
+      <tr>
+        <th colspan="4" style="font-size: 24px; text-align: center;">PvT</th>
+    </tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Snow</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">65.71</span></td>
+        </tr><tr>
+        <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Jaehoon</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #687ecb;"><span style="color: #000000;">58.33</span></td>
+        </tr><tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Best</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">57</span></td><td style="background-color: #6a7ec9;"><span style="color: #000000;">57.89</span></td>
+        </tr><tr>
+        <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Horang2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">19</span></td><td style="background-color: #6a7ec9;"><span style="color: #000000;">57.89</span></td>
+        </tr><tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Mini</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">64</span></td><td style="background-color: #6a7ec9;"><span style="color: #000000;">57.81</span></td>
+        </tr><tr>
+        <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Bisu</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">45</span></td><td style="background-color: #807bb4;"><span style="color: #000000;">53.33</span></td>
+        </tr><tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Rain</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">54</span></td><td style="background-color: #887aad;"><span style="color: #000000;">51.85</span></td>
+        </tr><tr>
+        <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Shuttle</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #9179a4;"><span style="color: #000000;">50.0</span></td>
+        </tr><tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Stork</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">26</span></td><td style="background-color: #9179a4;"><span style="color: #000000;">50.0</span></td>
+        </tr><tr>
+        <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">GuemChi</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #b47583;"><span style="color: #000000;">42.86</span></td>
+        </tr><tr>
+        <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Movie</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">31.25</span></td>
+        </tr>  </tbody>
+    </table>
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+  <thead>
+  <tr>
+    <th colspan="4" style="font-size: 24px; text-align: center;">PvP</th>
+</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Rain</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">50</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">84.0</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Bisu</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #99789c;"><span style="color: #000000;">57.14</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Snow</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">43</span></td><td style="background-color: #9e7898;"><span style="color: #000000;">55.81</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Mini</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #a67791;"><span style="color: #000000;">53.33</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Shuttle</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">19</span></td><td style="background-color: #ca736f;"><span style="color: #000000;">42.11</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Horang2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #cb736d;"><span style="color: #000000;">41.67</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Stork</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">48</span></td><td style="background-color: #d27267;"><span style="color: #000000;">39.58</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Best</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">44</span></td><td style="background-color: #dc715d;"><span style="color: #000000;">36.36</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Jaehoon</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">30.77</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Movie</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">30.77</span></td>
+    </tr>  </tbody>
+</table>
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+  <thead>
+  <tr>
+    <th colspan="4" style="font-size: 24px; text-align: center;">PvZ</th>
+</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Rain</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">61</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">59.02</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Best</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">62</span></td><td style="background-color: #4682eb;"><span style="color: #000000;">58.06</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Bisu</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">52</span></td><td style="background-color: #4e81e3;"><span style="color: #000000;">55.77</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Mini</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">106</span></td><td style="background-color: #4f81e3;"><span style="color: #000000;">55.66</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Stork</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #5880da;"><span style="color: #000000;">52.94</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">Shuttle</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #6b7ec8;"><span style="color: #000000;">47.22</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Snow</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">79</span></td><td style="background-color: #757cbe;"><span style="color: #000000;">44.3</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;">free</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">11</span></td><td style="background-color: #9179a4;"><span style="color: #000000;">36.36</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;">Horang2</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">9.09</span></td>
+    </tr>  </tbody>
+</table>
+
+</div>
+
+<div class="table-container">
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+  <thead>
+  <tr>
+    <th colspan="4" style="font-size: 24px; text-align: center;">ZvT</th>
+</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">EffOrt</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">69.57</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">SoulKey</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">79</span></td><td style="background-color: #6c7dc7;"><span style="color: #000000;">59.49</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Queen</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">45</span></td><td style="background-color: #737dc1;"><span style="color: #000000;">57.78</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Action</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #7d7cb7;"><span style="color: #000000;">55.26</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Sacsri</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #857bb0;"><span style="color: #000000;">53.33</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">hero</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">65</span></td><td style="background-color: #9b789a;"><span style="color: #000000;">47.69</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Larva</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">24</span></td><td style="background-color: #a37793;"><span style="color: #000000;">45.83</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Jaedong</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">39</span></td><td style="background-color: #ac768b;"><span style="color: #000000;">43.59</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Soma</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">36</span></td><td style="background-color: #bf7479;"><span style="color: #000000;">38.89</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Modesty</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #c57473;"><span style="color: #000000;">37.5</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">MIsO</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">22</span></td><td style="background-color: #c9736f;"><span style="color: #000000;">36.36</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Shine</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #ca736e;"><span style="color: #000000;">36.11</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Killer</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">27.27</span></td>
+    </tr>  </tbody>
+</table>
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+  <thead>
+  <tr>
+    <th colspan="4" style="font-size: 24px; text-align: center;">ZvP</th>
+</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Soma</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">71.79</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">hero</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">43</span></td><td style="background-color: #5a7fd8;"><span style="color: #000000;">65.12</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Jaedong</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">28</span></td><td style="background-color: #5d7fd6;"><span style="color: #000000;">64.29</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">SoulKey</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">72</span></td><td style="background-color: #637ed0;"><span style="color: #000000;">62.5</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">EffOrt</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">36</span></td><td style="background-color: #7a7cb9;"><span style="color: #000000;">55.56</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Larva</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">51</span></td><td style="background-color: #7d7cb7;"><span style="color: #000000;">54.9</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Shine</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">22</span></td><td style="background-color: #8d7aa7;"><span style="color: #000000;">50.0</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Queen</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">51</span></td><td style="background-color: #9179a4;"><span style="color: #000000;">49.02</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Action</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #a07896;"><span style="color: #000000;">44.68</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Killer</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #a67790;"><span style="color: #000000;">42.86</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Calm</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">10</span></td><td style="background-color: #b07687;"><span style="color: #000000;">40.0</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">MIsO</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15</span></td><td style="background-color: #dd715c;"><span style="color: #000000;">26.67</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Sacsri</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">21.74</span></td>
+    </tr>  </tbody>
+</table>
+
+<table border="1" class="dataframe table table-striped table-bordered small-table">
+  <thead>
+  <tr>
+    <th colspan="4" style="font-size: 24px; text-align: center;">ZvZ</th>
+</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Winrate</th>    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Queen</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">44</span></td><td style="background-color: #4382ee;"><span style="color: #000000;">54.55</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Soma</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #4981e9;"><span style="color: #000000;">53.85</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">SoulKey</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">54</span></td><td style="background-color: #4a81e8;"><span style="color: #000000;">53.7</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">hero</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">43</span></td><td style="background-color: #4c81e6;"><span style="color: #000000;">53.49</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">EffOrt</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #4d81e5;"><span style="color: #000000;">53.33</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Larva</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #687ecb;"><span style="color: #000000;">50.0</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Action</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #767cbe;"><span style="color: #000000;">48.28</span></td>
+    </tr><tr>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;">Shine</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15</span></td><td style="background-color: #837bb2;"><span style="color: #000000;">46.67</span></td>
+    </tr><tr>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Jaedong</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">33.33</span></td>
+    </tr>  </tbody>
+
+</div>
+
+<span style="font-size: 12px;">*Note: Only players with at least 10 games in the matchup have been included*</span>
