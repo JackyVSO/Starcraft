@@ -718,6 +718,7 @@ Now let's take a look at the top players in each matchup:
     <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;">Jaedong</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">33.33</span></td>
     </tr>  </tbody>
 
+.
 </div>
 
 <span style="font-size: 12px;">*Note: Only players with at least 10 games in the matchup have been included*</span>
