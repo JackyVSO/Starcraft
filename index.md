@@ -413,6 +413,7 @@ In this section, we'll abandon the bird's eye view and instead zoom in on how th
 Notably, the two finalists of this last ASL are also the two players with the most total games played in ASL and KSL.  
 Now let's take a look at the top players in each matchup:
 
+<div class="table-container">
 <table border="1" class="dataframe table table-striped table-bordered small-table">
   <thead>
   <tr>
@@ -518,5 +519,7 @@ Now let's take a look at the top players in each matchup:
     <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;">Mong</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">23</span></td><td style="background-color: #ee6f4c;"><span style="color: #000000;">17.39</span></td>
     </tr>  </tbody>
 </table>
+
+</div>
 
 dsfds
