@@ -3,9 +3,8 @@ layout: default
 title: Stats from the remastered era of pro Starcraft 1
 ---
 <p style="margin: 0px 0px;">
+<br/><br/>
 </p>
-
-<br/>
 
 # Stats from the ASL/KSL era
 #### by Jacob Stubbe Østergaard / JackyVSO  
@@ -1352,8 +1351,7 @@ In any case, I found that across 176 decider matches,
 
 
 <br/><br/>
-<h1>5. (You must construct)  
-Additional notes</h1>
+<h1>5. <span style="font-size: 24px;">(You must construct)</span> Additional notes</h1>
 Please get in touch if you have found any errors in these charts, if you feel there's something important I forgot to mention, or if you have any requests for insights you'd like me to pull from the database. Anything pertaining to game duration, map details, tournament results, series outcomes or temporal developments should be possible to draw from there. The database also includes some columns that I have not touched upon here, such as birth year of the players, year of publication for maps, ASL tiers, and Ro. 24 and Ro. 16 group affiliations. I have also categorized maps as island or standard but since so few games have been played on island maps, I can't really make any inferences about that. What I don't have is any information about build orders. That would be the next level. But it would be challenging to categorize the build orders in useful ways and very time-consuming to gather the data.
 
 I would like to stress that I am not a statistician. I'm just a layperson with a basic understanding, doing my best. I haven't bothered to calculate p-values for all the charts, and my uncertainty assessments are just estimates. I apologize if you're a professional statistician and reading any of this has caused you to facepalm.
