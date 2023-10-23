@@ -11,11 +11,6 @@
             max-width: 800px;
             margin: 0 auto;
       }
-      .chart-container {
-            background-color: #d2dfee; /* Set the same background color for the container as the document */
-            padding: 20px; /* Add padding for spacing */
-            border-radius: 10px; /* Optional: Add rounded corners for a nicer appearance */
-      }
      .header {
             width: 800px; /* Make it span the entire width */
             background-color: #d2dfee; /* Set a background color for the header */
@@ -37,12 +32,17 @@
       h1 {
             font-size: 48px;
       }
-      table {
+      .table {
             font-family: 'IBM Plex Mono', sans-serif;
             max-width: 800px;
-            width: 80%;
+            width: 100%;
             border-collapse: collapse;
             margin: 50px auto;
+      }
+      .dataframe, .table, .table-bordered, .table-striped {
+            max-width: 100%; /* Ensure that specific tables don't exceed the width of their container */
+            width: 100%; /* Use 100% of the available width within their container */
+            margin: 0 auto; /* Center the tables horizontally within their container */
       }
       .table th, .table td {
             padding: 8px 12px;
@@ -66,7 +66,7 @@
             height: auto;
       }
       .table-container {
-            display: flex; /* Use a flex container to arrange tables side by side */
+            display: flex;
       }
       .table-container table {
             margin-right: 20px;
@@ -74,7 +74,6 @@
             margin-bottom: 20px;
       }
   </style>
-    </style>
     <title>Starcraft Stats</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
