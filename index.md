@@ -992,26 +992,26 @@ Having access to the each game's duration, I drew up a script to search for play
 
 <h3>If you're playing Snow or JyJ, finish them off quickly!</h3>
 
-<img src="images/13Snowwinratebyduration.png" alt="Winrate by duration, Snow">
-<img src="images/13JyJwinratebyduration.png" alt="Winrate by duration, JyJ">
+<img src="images/13Snowwinratebyduration.png" alt="Winrate by duration, Snow" class="wide-image">
+<img src="images/13JyJwinratebyduration.png" alt="Winrate by duration, JyJ" class="wide-image">
 
 Snow and JyJ both show a clear trend. If the game is short, they likely lose. If it's long, they likely win.
 
 <h3>Mind Mind in the midgame</h3>
 
-<img src="images/13Mindwinratebyduration.png" alt="Winrate by duration, Mind">
+<img src="images/13Mindwinratebyduration.png" alt="Winrate by duration, Mind" class="wide-image">
 
 Mind is vulnerable in the early game and average in the late game but, for some reason, deadly in the 11-13 minute interval!
 
 <h3>If you're playing Shine, kill him in the midgame</h3>
 
-<img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Shine">
+<img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Shine" class="wide-image">
 
 Shine is the opposite of Mind: dangerous in the early and late game but vulnerable in the midgame.
 
 <h3>If you're playing Jaedong, ...errhh... ??</h3>
 
-<img src="images/13Jaedongwinratebyduration.png" alt="Winrate by duration, Jaedong">
+<img src="images/13Jaedongwinratebyduration.png" alt="Winrate by duration, Jaedong" class="wide-image">
 
 This is Jaedong's graph.
 
@@ -1029,99 +1029,99 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
     </thead>
     <tbody>
     <tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>HyuN</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">9:50</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>HyuN</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">9:50</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>beast</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9:55</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>beast</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9:55</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Hyuk</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11:09</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Hyuk</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11:09</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Calm</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:09</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Calm</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:09</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Soma</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12:22</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Soma</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12:22</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Queen</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:36</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Queen</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:36</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>MIsO</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12:49</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">7</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>MIsO</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12:49</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Shine</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:58</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Shine</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">12:58</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Killer</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:01</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">9</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Killer</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:01</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>hero</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:15</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">10</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>hero</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:15</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Sacsri</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:20</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Sacsri</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:20</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>SoulKey</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:25</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>SoulKey</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:25</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Bisu</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:37</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Bisu</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:37</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>ggaemo</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:40</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>ggaemo</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:40</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Mini</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:43</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Mini</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:43</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Modesty</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:49</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Modesty</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:49</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Jaedong</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:54</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Jaedong</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:54</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">18</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Movie</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:56</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">18</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Movie</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:56</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">19</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Larva</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:58</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">19</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Larva</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:58</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">20</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>EffOrt</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:00</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">20</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>EffOrt</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:00</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>BarrackS</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:00</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>BarrackS</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:00</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">22</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Action</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:13</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">22</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Action</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:13</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Horang2</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:41</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Horang2</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:41</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Rain</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:47</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Rain</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:47</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>FlaSh</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:48</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>FlaSh</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:48</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>RoyaL</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:50</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>RoyaL</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:50</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">27</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Stork</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:53</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">27</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Stork</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:53</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">28</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Best</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:02</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">28</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Best</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:02</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Ample</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:08</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Ample</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:08</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>ForGG</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:22</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>ForGG</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:22</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">31</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Rush</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:24</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">31</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Rush</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:24</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Jaehoon</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:28</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Jaehoon</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:28</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">33</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>GuemChi</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:30</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">33</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>GuemChi</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:30</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Snow</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:40</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Snow</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:40</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Light</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:42</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Light</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:42</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Piano</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:55</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Piano</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:55</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">37</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Shuttle</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:02</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">37</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Shuttle</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:02</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Leta</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:05</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Leta</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:05</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Last</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:07</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Last</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:07</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>nOOb</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:08</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>nOOb</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:08</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">41</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mind</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:36</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">41</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mind</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:36</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">42</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>sSak</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:45</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">42</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>sSak</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:45</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">43</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>JyJ</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:52</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">43</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>JyJ</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:52</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">44</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Sea</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17:11</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">44</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Sea</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17:11</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">45</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>free</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17:30</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">45</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>free</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17:30</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">46</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Sharp</b</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17:42</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">46</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Sharp</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17:42</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mong</b</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">18:45</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mong</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">18:45</span></td>
     </tr>  </tbody>
 </table>
 
