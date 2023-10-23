@@ -2,9 +2,8 @@
 layout: default
 title: Stats from the remastered era of pro Starcraft 1
 ---
-
-
-
+<p style="margin: 0px 0px;">
+</p>
 
 <br/>
 
