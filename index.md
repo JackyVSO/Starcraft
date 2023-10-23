@@ -889,9 +889,8 @@ Now, these winrates have all been historical, spanning the entire period from th
 
 <table border="1" class="dataframe table table-striped table-bordered">
   <thead>
-    <tr style="text-align: right;">
     <th colspan="4" style="font-size: 24px; text-align: center;">ASL+KSL Elo rankings, Oct 19th 2023</th>
-</tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Rating</th>    </tr>
+<tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Rating</th>    </tr>
     </thead>
     <tbody>
     <tr>
