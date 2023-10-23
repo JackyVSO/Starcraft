@@ -7,7 +7,7 @@ title: Stats from the remastered era of pro Starcraft 1
 #### by Jacob Stubbe Østergaard / JackyVSO  
 
 ## Introduction
-The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;">**1,906 games**</span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
+The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</b></u></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
 
 Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from Liquipedia, while game duration and spawn location has been collected from AfreecaTV VODs.
 
@@ -57,7 +57,7 @@ This article is divided into four main parts: Matchups, Maps, Players and Tourna
 <h1 class="h1" id="Matchups"> 1. Matchups</h1>
 The distribution of matchups of games in the database is as follows:
 <h4 id="A5"></h4>
-<img src="images/A5matchupfrequency.png", alt="Distribution of matchups">
+<img src="images/A5matchupfrequency.png" alt="Distribution of matchups">
 
 We can see that mirror matchups are quite rare, which is only logical. The comparative scarcity of TvPs can be explained by a slight overrepresentation of Zergs in ASL and KSL in general (see the figures for total games played by each race in the table below) but that leaves no obvious explanation for why there have then been more TvTs than ZvZs. Maybe Zergs try to avoid each other in group selections. Maybe ZvZ series are generally more one-sided and therefore shorter than TvTs series. I don't know. Now let's move on to matchup winrates, about which this study shows that
 
@@ -127,7 +127,7 @@ This table shows the overall winrate for each race across both its non-mirror ma
 
 So Terran does seem to be the worst race without Flash, but only 0.3 percentage points below Zerg.  
 
-(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards. There is really only one thing that these numbers show very clearly, and that is that Starcraft is a remarkably balanced game - at least when played on carefully designed maps)  
+(While this was a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.67 vs 50.33 over Terran amounts to an advantage of no more than four games, which makes it statistically insignificant by any reasonable standards. There is really only one thing that these numbers show very clearly, and that is that **Starcraft is a remarkably balanced game** - at least when played on carefully designed maps)  
 
 Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
@@ -825,7 +825,6 @@ Now let's take a look at the top players in each matchup:
 
 </div>
 
-
 <span style="font-size: 12px;"><i>Note: Only players with at least 10 games in the matchup have been included</i></span>
 
 A few things I found interesting in those rankings:
@@ -890,9 +889,7 @@ Now, these winrates have all been historical, spanning the entire period from th
 
 <table border="1" class="dataframe table table-striped table-bordered">
   <thead>
-    <tr style="text-align: right;"><table border="1" class="dataframe table table-striped table-bordered">
-    <thead>
-    <tr>
+    <tr style="text-align: right;">
     <th colspan="4" style="font-size: 24px; text-align: center;">ASL+KSL Elo rankings, Oct 19th 2023</th>
 </tr><tr style="text-align: right;"><th>Rank</th><th>Name</th><th>Games</th><th>Rating</th>    </tr>
     </thead>
@@ -1008,13 +1005,13 @@ Mind is vulnerable in the early game and average in the late game but, for some 
 
 <h3>If you're playing Shine, kill him in the midgame</h3>
 
-<img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Mind">
+<img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Shine">
 
 Shine is the opposite of Mind: dangerous in the early and late game but vulnerable in the midgame.
 
 <h3>If you're playing Jaedong, ...errhh... ??</h3>
 
-<img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Mind">
+<img src="images/13Jaedongwinratebyduration.png" alt="Winrate by duration, Jaedong">
 
 This is Jaedong's graph.
 
