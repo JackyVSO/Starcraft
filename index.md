@@ -1119,7 +1119,7 @@ Just for curiosity's sake, these were the longest games ever played in ASL or KS
     <thead>
     <tr>
     <th colspan="9" style="font-size: 24px; text-align: center;">Longest games</th>
-</tr><tr style="text-align: right;"><th>Rank</th><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tournament</th><th>Season</th><th>Duration</th>    </tr>
+</tr><tr style="text-align: right;"><th>#</th><th>M.</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tmnt.</th><th>S.</th><th>Duration</th>    </tr>
     </thead>
     <tbody>
     <tr>
