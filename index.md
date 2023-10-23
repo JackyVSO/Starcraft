@@ -66,31 +66,6 @@ We can see that mirror matchups are quite rare, which is only logical. The compa
 
 This table shows the overall winrate for each race across both its non-mirror matchups:
 
-<style>
-  .table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px auto;
-    font-family: 'IBM Plex Mono', sans-serif;
-  }
-  .table th, .table td {
-    padding: 8px 12px;
-    text-align: center;
-  }
-  .table th {
-    background-color: #a2afbe;
-    color: #000000;
-  }
-  .table-striped tbody tr:nth-child(odd) {
-    background-color: #d2dfee;
-  }
-  .table-striped tr:nth-child(even) {
-    background-color: #e2effe;
-}
-  .table-bordered {
-    border: 1px solid #ccc;
-  }
-</style>
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
