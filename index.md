@@ -124,7 +124,7 @@ First, let's look at how game duration correlates to matchup winrates.
 
 <span style="font-size: 12px;">*Note:because of the limited data available (only 400-500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*</span>
 
-<h3 id="11">Zerg rules the early game but struggles in the midgame. The late game is balanced.</h3>
+<h3 id="11"><i>Zerg rules the early game but struggles in the midgame. The late game is balanced.</i></h3>
 
 <img src="./images/11TvPwinratesbyduration.png" alt="TvP winrate by game duration" class="wide-image">
 <img src="./images/11TvZwinratesbyduration.png" alt="TvZ winrate by game duration" class="wide-image">
@@ -134,7 +134,7 @@ We can see that if the game ends quickly, that bodes well for Zerg. In TvZ, ther
 
 Moving on to spawn locations, we come to one of the most unambiguous findings of this study:
 
-<h3 id="A10">Cross spawns is VERY BAD for Terran</h3>
+<h3 id="A10"><i>Cross spawns is VERY BAD for Terran</i></h3>
 ... and amazing for Protoss.
 
 <table border="1" class="dataframe table table-striped table-bordered">
@@ -163,8 +163,8 @@ If that table began to reveal how circumstance-dependent the power dynamics betw
 <img src="images/7PvZspawns.png" alt="PvZ winrates by number of spawn locations">
 
 The most notable thing here is just how lopsided TvP on 2-player maps is. Out of 116 games in the database, Terran has won 38 and Protoss has won 78. If TvP was never played on 2-player maps, it would be a Terran-favored matchup. Terran also fares better with more spawning locations against Zerg, although this is far less pronounced. This is consistent with another finding in the data, which was that *the bigger the map (by size in tiles), the better for Terran*. I have not included that figure here because it shows the same as the above but less markedly.
-PvZ, on the other hand, seems hardly to be affected by the number of spawning locations on the map at all. I'll leave it to more accomplished players to explain this difference.
-
+PvZ, on the other hand, seems hardly to be affected by the number of spawning locations on the map at all. I'll leave it to more accomplished players to explain this difference.  
+<br/><br/>
 <h1 class="h1" id="Maps"> 2. Maps</h1>
 
 Now let's keep our focus on the maps for a bit before we move on to stats about players. No less than 68 different maps have been used in ASL and KSL: 19 2-player maps (553 games), 14 3-player maps (391 games), and 35 4-player maps (962 games).
@@ -218,7 +218,7 @@ Since most of these maps have been in use for only one or two seasons, it isn't 
 *The winrates displayed are for the first race mentioned in the matchup (e.g. Sylphid has a 47.1% winrate for T in TvP, 47.1% for T in TvZ and 58.8% for P in PvZ)*
 
 So Sylphid appears to be the most balanced map yet made, closely followed by (In The Way of An) Eddy, whereas Gladiator is the least balanced - even though it's somehow perfectly balanced in TvZ. Looking at the scores for Vermeer, Polypoid and Circuit Breaker, we can see that what is sometimes termed "standard maps" are actually clearly Terran-favored, whereas more unusual maps might be less comfortable for Terran.
-
+<br/><br/>
 <h1 id="Players">3. Players</h1>
 In this section, we'll abandon the bird's eye view and instead zoom in on how the individual Starcraft 1 pros have been faring against each other. A total of 76 players have qualified for ASL and/or KSL at least once (27 Zerg, 26 Terran, 23 Protoss). Here they are, listed according to how many tournament games they've played:
 
@@ -858,7 +858,7 @@ A few things I found interesting in those rankings:
 <span style="font-size: 12px;"><i>Note: Only players with at least 15 games in the database have been included</i></span>
 
 FlaSh once again asserting dominance by occupying two spots on the top 5, while Mong has the dubious honor of posting two entries to the bottom 5. RoyaL notably manages to be an ASL champion while his TvP is the 5th worst matchup anyone has (with more than 10 ASL/KSL in the matchup).
-
+<br/>
 <h2 id="4">Elo rankings</h2>
 Now, these winrates have all been historical, spanning the entire period from the 1st ASL in 2016 to the last one in 2023. If we want to get a better idea of who are the strongest players right now, it might be interesting to look at how their Elo rating might look like. Calculating Elo with k = 30 and starting rating = 1600, we get the following ranking as of October 19th, 2023:
 
@@ -960,7 +960,7 @@ Having access to the exact date each game in the database was played, we are als
 <img src="images/5elotimeseries.png" alt="Elo time series" class="wide-image">
 
 What this graph shows most clearly is just how dominant FlaSh was in 2017-18. 2018-19 brought a sea change with Rain, Last, SoulKey and Light rising to prominence. Later on, in 2021, we saw the rise to greatness of Larva, Mini and Rush.
-
+<br/>
 <h2 id="13">Player winrates and game duration</h2>
 
 Having access to the each game's duration, I drew up a script to search for players with high variance between winrates for different game duration intervals. Here's what I found:
@@ -1106,11 +1106,11 @@ Some findings here:
 - As the "slowest" Zerg player, Action's games are slightly longer than those of the "fastest" Terran player, BarrackS
 - free is practically a Terran trapped in a Protoss' body
 - FlaSh is notably the second fastest Terran, but this may in part be because a few of his matches were not actually played in Terran matchups. This will only have had a minor effect though.
-
+<br/><br/>
 <h1 id="TournamentStats">4. Tournament Stats</h1>
 
 In this section, we'll look at some overall stats. First we'll look at the longest and shortest games, game duration by matchup, and game duration by spawn locations. Then we\ll take a look at how Bo5 and Bo7 series normally play out, and then finally the advantage of being seeded and the probability of winning a group decider match.
-
+<br/>
 <h2 id="9">Longest and shortest games in ASL/KSL history</h2>
 
 Just for curiosity's sake, these were the longest games ever played in ASL or KSL:
@@ -1249,38 +1249,38 @@ It's well known that cross spawns makes games longer, but this effect is drastic
 </table>
 
 Cross spawns has by far the strongest effect on the duration of PvZs, whereas it has little effect on TvT and TvZ. Again, I'll leave it to the experts to interpret this difference but I'm curious about the answer.
-
+<br/>
 <h2>Series stats</h2>
-
+<br/>
 <h3 id="A3">The first game myth</h3>
 
 In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that
 
-- The winner of game 1 ended up winning the Best of 5 **73.6%** of the time.
+- The winner of game 1 ended up winning the Best-of-5 **73.6%** of the time.
 
 That might look like a lot at first glance but we have to remember that obviously winning any game in a best of 5 is going to greatly increase your chances of winning the whole series. To find out if the first game is really so important, what we can do is compare this figure to the same figure for games 2 and 3. Plugging those into the same query, we find that
 
-- The winner of game 2 ended up winning the Best of 5 **71.57%** of the time, whereas
-- The winner of game 3 ended up winning the Best of 5 **73.1%** of the time.
+- The winner of game 2 ended up winning the Best-of-5 **71.57%** of the time, whereas
+- The winner of game 3 ended up winning the Best-of-5 **73.1%** of the time.
 
 So that's what the game 1 advantage amounts to. It's more important than game 3 by 0,5pp and more important than game 2 by 2pp. This is based on 197 Best-of-5s in the database. Running the same calculations for Best-of-7s actually indicates that game 2 is more important than any other game but that's based on only 35 recorded Best-of-7s and therefore tells us almost nothing.
 
-Incredibly, in ASL (but not KSL), the game 1 myth has held true for all 16 finals. I have no explanation for this. On the flip side, it means that if you discount finals (only the first 7 of which were Best-of-5 in ASL), game 1 has been less important than game 3 across 190 recorded non-final Best-of-5s.
+Incredibly, in ASL (but not KSL), the game 1 myth has held true for all 16 finals series. I have no explanation for this. On the flip side, this means that if you discount finals (only the first 7 of which were Best-of-5 in ASL), game 1 has been less important than game 3 across 190 recorded non-final Best-of-5s.
 
 In conclusion:
 
 <img src="images/busted.png" alt="Busted!">
-
+<br/>
 <h3 id="A4">Map selection advantage</h3>
 
 Players and casters often place some emphasis on the advantage of map selection. I wanted to test this assumption also and in doing so, I found something surprising:
 
-<h4>Being the one who selects the map is just as important in mirror matchups as in non-mirror matchups</h4>
+<h4><i>Being the one who selects the map is just as important in mirror matchups as in non-mirror matchups</i></h4>
 
 Generally speaking, 
 
 - the player who chose the map won the game in **54.9%** of cases, 
-- whereas for mirror matchups only, the map chooser won **54.4%** of the time.
+- whereas for mirror matchups only, the map chooser won **54.4%** of the time
 
 This is surprising because the advantage of choosing a map is often chalked up to being about whether this map is generally good for your race in the given matchup or not.
 
@@ -1290,27 +1290,27 @@ The relatively low overall winrate for the map chooser seems partially to be due
 - whereas in mirror matchups only, the first map chooser won **60.5%** of the time
 
 Although non-mirror matchups appear to show a very slightly greater map choice advantage, this is well within the bracket of uncertainty.
-
+<br/>
 <h3>Reverse sweeps</h3>
 
-The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at **6%**
+The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at **6%**.
 
 In 35 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
-
+<br/>
 <h3 id="A7">Seeds</h3>
 
 Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
 
-Average result of seeded player: **8.8**
-Average result of non-seeded player: **14.6**
+- Average result of seeded player: **8.8**
+- Average result of non-seeded player: **14.6**
 
 This means that the average result for a seeded player was roughly getting eliminated in the Round of 8, whereas the average result of a non-seeded player was roughly getting eliminated in the Round of 16. This is a really considerable advantage, and it should be noted I am comparing the **same set of players**, meaning the average result for non-seeded players listed here is the average result for *players who have been seeded in at least one season, in seasons where they were not seeded*. So the figures can't be explained by arguing that players who earn a seed are obviously just better than those who don't. More likely the explanation is that the ASL's Round of 24 with its Best-of-1 format is a real slaughterhouse that even the best players struggle to make it out of alive.
 
 To further galvanize this point, becoming a seeded player greatly increases your chance of becoming a seeded player again in the next season:
 
-Probability of gaining seed as already seeded player: **36.7%**
-Probability of gaining seed as non-seeded player: **18.4%**
-
+- Probability of gaining seed as already seeded player: **36.7%**
+- Probability of gaining seed as non-seeded player: **18.4%**
+<br/>
 <h3 id="A8">Decider matches: Winners' loser vs losers' winner</h3>
 
 That leaves just one more thing I wanted to check. Something has always bothered me about the double elimination format employed in starleague group stages. It seems unfair when there's a rematch in the decider match and the winner of the first match gets eliminated. Those players came out 1-1 on the night and although the advancing player did win the intervening match, that may only have been because he was facing easier opposition in the losers' match than the eliminated player was facing in the winners' match.
@@ -1322,5 +1322,5 @@ In any case, I found that across 176 decider matches,
 
 
 
-
+<br/><br/>
 <h1>Additional notes</h1>
