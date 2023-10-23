@@ -1249,9 +1249,8 @@ It's well known that cross spawns makes games longer, but this effect is drastic
 </table>
 
 Cross spawns has by far the strongest effect on the duration of PvZs, whereas it has little effect on TvT and TvZ. Again, I'll leave it to the experts to interpret this difference but I'm curious about the answer.
-<br/>
+<br/><br/>
 <h2>Series stats</h2>
-<br/>
 <h3 id="A3">The first game myth</h3>
 
 In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that
@@ -1323,4 +1322,4 @@ In any case, I found that across 176 decider matches,
 
 
 <br/><br/>
-<h1>Additional notes</h1>
+<h1>5. Additional notes</h1>
