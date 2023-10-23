@@ -7,7 +7,7 @@ title: Stats from the remastered era of pro Starcraft 1
 #### by Jacob Stubbe Østergaard / JackyVSO  
 
 ## Introduction
-The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</b></u></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
+The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</u></b></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
 
 Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from Liquipedia, while game duration and spawn location has been collected from AfreecaTV VODs.
 
@@ -887,33 +887,6 @@ FlaSh once again asserting dominance by occupying two spots on the top 5, while 
 <h2 id="4">Elo rankings</h2>
 Now, these winrates have all been historical, spanning the entire period from the 1st ASL in 2016 to the last one in 2023. If we want to get a better idea of who are the strongest players right now, it might be interesting to look at how their Elo rating might look like. Calculating Elo with k = 30 and starting rating = 1600, we get the following ranking as of October 19th, 2023:
 
-<style>
-* {
-    font-family: 'IBM Plex Mono', sans-serif;
-}
-  .table {
-    width: 80%;
-    border-collapse: collapse;
-    margin: 20px auto;
-  }
-  .table th, .table td {
-    padding: 8px 12px;
-    text-align: center;
-  }
-  .table th {
-    background-color: #a2afbe;
-    color: #000000;
-  }
-  .table-striped tbody tr:nth-child(odd) {
-    background-color: #d2dfee;
-  }
-  .table-striped tr:nth-child(even) {
-    background-color: #e2effe;
-}
-  .table-bordered {
-    border: 1px solid #ccc;
-  }
-</style>
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
@@ -1047,6 +1020,7 @@ This is Jaedong's graph.
 Lastly, before we move on to some general tournament stats, here's a ranking of the pro players from "fastest" to "slowest" based on their average game duration:
 
 <h4 id="12"></h4>
+
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
