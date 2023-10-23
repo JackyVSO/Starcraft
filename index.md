@@ -2,7 +2,11 @@
 layout: default
 title: Stats from the remastered era of pro Starcraft 1
 ---
-<br/><br/>
+
+
+
+
+<br/>
 
 # Stats from the ASL/KSL era
 #### by Jacob Stubbe Østergaard / JackyVSO  
