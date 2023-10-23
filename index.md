@@ -1220,7 +1220,7 @@ And these have been the longest games in each matchup respectively:
     </tr>  </tbody>
 </table>
 
-<h4 id="14">Effect of cross spawns on game duration</h4>
+<h2 id="14">Effect of cross spawns on game duration</h2>
 
 It's well known that cross spawns makes games longer, but this effect is drastically stronger in some matchups than others. Here's how cross spawns affects game duration:
 
