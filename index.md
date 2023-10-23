@@ -1151,7 +1151,7 @@ Just for curiosity's sake, these were the longest games ever played in ASL or KS
     <thead>
     <tr>
     <th colspan="9" style="font-size: 24px; text-align: center;">Shortest games</th>
-</tr><tr style="text-align: right;"><th>Rank</th><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tournament</th><th>Season</th><th>Duration</th>    </tr>
+</tr><tr style="text-align: right;"><th>#</th><th>M.</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tmnt.</th><th>S.</th><th>Duration</th>    </tr>
     </thead>
     <tbody>
     <tr>
@@ -1202,7 +1202,7 @@ And these have been the longest games in each matchup respectively:
     <thead>
     <tr>
     <th colspan="8" style="font-size: 24px; text-align: center;">Longest game of each matchup</th>
-</tr><tr style="text-align: right;"><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tournament</th><th>Season</th><th>Duration</th>    </tr>
+</tr><tr style="text-align: right;"><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tmnt.</th><th>S.</th><th>Duration</th>    </tr>
     </thead>
     <tbody>
     <tr>
@@ -1222,7 +1222,7 @@ And these have been the longest games in each matchup respectively:
 
 <h4 id="14">Effect of cross spawns on game duration</h4>
 
-It's well known that cross spawns makes games longer but this effect is drastically stronger in some matchups than others. Here's how cross spawns affects game duration:
+It's well known that cross spawns makes games longer, but this effect is drastically stronger in some matchups than others. Here's how cross spawns affects game duration:
 
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
@@ -1251,3 +1251,76 @@ It's well known that cross spawns makes games longer but this effect is drastica
 Cross spawns has by far the strongest effect on the duration of PvZs, whereas it has little effect on TvT and TvZ. Again, I'll leave it to the experts to interpret this difference but I'm curious about the answer.
 
 <h2>Series stats</h2>
+
+<h3 id="A3">The first game myth</h3>
+
+In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that
+
+- The winner of game 1 ended up winning the Best of 5 **73.6%** of the time.
+
+That might look like a lot at first glance but we have to remember that obviously winning any game in a best of 5 is going to greatly increase your chances of winning the whole series. To find out if the first game is really so important, what we can do is compare this figure to the same figure for games 2 and 3. Plugging those into the same query, we find that
+
+- The winner of game 2 ended up winning the Best of 5 **71.57%** of the time, whereas
+- The winner of game 3 ended up winning the Best of 5 **73.1%** of the time.
+
+So that's what the game 1 advantage amounts to. It's more important than game 3 by 0,5pp and more important than game 2 by 2pp. This is based on 197 Best-of-5s in the database. Running the same calculations for Best-of-7s actually indicates that game 2 is more important than any other game but that's based on only 35 recorded Best-of-7s and therefore tells us almost nothing.
+
+Incredibly, in ASL (but not KSL), the game 1 myth has held true for all 16 finals. I have no explanation for this. On the flip side, it means that if you discount finals (only the first 7 of which were Best-of-5 in ASL), game 1 has been less important than game 3 across 190 recorded non-final Best-of-5s.
+
+In conclusion:
+
+<img src="images/busted.png" alt="Busted!">
+
+<h3 id="A4">Map selection advantage</h3>
+
+Players and casters often place some emphasis on the advantage of map selection. I wanted to test this assumption also and in doing so, I found something surprising:
+
+<h4>Being the one who selects the map is just as important in mirror matchups as in non-mirror matchups</h4>
+
+Generally speaking, 
+
+- the player who chose the map won the game in **54.9%** of cases, 
+- whereas for mirror matchups only, the map chooser won **54.4%** of the time.
+
+This is surprising because the advantage of choosing a map is often chalked up to being about whether this map is generally good for your race in the given matchup or not.
+
+The relatively low overall winrate for the map chooser seems partially to be due to the limited average range of choices. Once we get to the last few maps of the series, there might only be two or three maps left to choose from, which might not be much of an advantage. As such, we can see that when counting only the first map choice:
+
+- the player who chose the first map won that game in **61.1%** of cases,
+- whereas in mirror matchups only, the first map chooser won **60.5%** of the time
+
+Although non-mirror matchups appear to show a very slightly greater map choice advantage, this is well within the bracket of uncertainty.
+
+<h3>Reverse sweeps</h3>
+
+The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at **6%**
+
+In 35 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
+
+<h3 id="A7">Seeds</h3>
+
+Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
+
+Average result of seeded player: **8.8**
+Average result of non-seeded player: **14.6**
+
+This means that the average result for a seeded player was roughly getting eliminated in the Round of 8, whereas the average result of a non-seeded player was roughly getting eliminated in the Round of 16. This is a really considerable advantage, and it should be noted I am comparing the **same set of players**, meaning the average result for non-seeded players listed here is the average result for *players who have been seeded in at least one season, in seasons where they were not seeded*. So the figures can't be explained by arguing that players who earn a seed are obviously just better than those who don't. More likely the explanation is that the ASL's Round of 24 with its Best-of-1 format is a real slaughterhouse that even the best players struggle to make it out of alive.
+
+To further galvanize this point, becoming a seeded player greatly increases your chance of becoming a seeded player again in the next season:
+
+Probability of gaining seed as already seeded player: **36.7%**
+Probability of gaining seed as non-seeded player: **18.4%**
+
+<h3 id="A8">Decider matches: Winners' loser vs losers' winner</h3>
+
+That leaves just one more thing I wanted to check. Something has always bothered me about the double elimination format employed in starleague group stages. It seems unfair when there's a rematch in the decider match and the winner of the first match gets eliminated. Those players came out 1-1 on the night and although the advancing player did win the intervening match, that may only have been because he was facing easier opposition in the losers' match than the eliminated player was facing in the winners' match.
+
+In any case, I found that across 176 decider matches,
+
+- Winners' loser advanced **53%** of the time, while
+- Losers' winner advanced **47%** of the time
+
+
+
+
+<h1>Additional notes</h1>
