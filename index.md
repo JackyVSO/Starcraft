@@ -809,12 +809,13 @@ Now let's take a look at the top players in each matchup:
 <br/><br/>
 
 A few things I found interesting in those rankings:
-- *While Light is often praised for his TvZ, it is statistically his worst matchup*
-- *Mong has the most lopsided record, being #2 behind FlaSh in TvP but dead last in TvT and TvZ*
-- *No one has a 55%+ winrate in ZvZ. It really seems to be the most random matchup*
-- *ZvZ is often listed as SoulKey's "weakness" but he still has a 54% winrate, ranking 3rd*
-- *FlaSh is #1 in every Terran matchup*
-- *Rain is the absolute monarch of Aiur...*
+
+- While Light is often praised for his TvZ, it is statistically his worst matchup
+- Mong has the most lopsided record, being #2 behind FlaSh in TvP but dead last in TvT and TvZ
+- No one has a 55%+ winrate in ZvZ. It really seems to be the most random matchup
+- ZvZ is often listed as SoulKey's "weakness" but he still has a 54% winrate, ranking 3rd
+- FlaSh is #1 in every Terran matchup
+- Rain is the absolute monarch of Aiur...
 
 ...which brings us to the next table: best and worst matchup scores across all matchups:
 
@@ -1259,10 +1260,8 @@ It's well known that cross spawns makes games longer, but this effect is drastic
 </table>
 
 Cross spawns has by far the strongest effect on the duration of PvZs, whereas it has little effect on TvT and TvZ. Again, I'll leave it to the experts to interpret this difference but I'm curious about the answer.
-
-
-
 <br/><br/>
+
 <h2>Series stats</h2>
 <h3 id="A3">The first game myth</h3>
 
@@ -1282,7 +1281,7 @@ Incredibly, in ASL (but not KSL), the game 1 myth has held true for all 16 final
 In conclusion:
 
 <img src="images/busted.png" alt="Busted!">
-<br/><br/>
+<br/>
 
 <h3 id="A4">Map selection advantage</h3>
 
@@ -1304,15 +1303,14 @@ The relatively low overall winrate for the map chooser seems partially to be due
 
 Although non-mirror matchups appear to show a very slightly greater map choice advantage, this is well within the bracket of uncertainty.
 
-<br/><br/>
-
+<br/>
 <h3>Reverse sweeps</h3>
 
 The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at <span style="font-size: 18px"><b>6%</b></span>.
 
 In 35 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
 
-<br/><br/>
+<br/>
 <h3 id="A7">Seeds</h3>
 
 Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
@@ -1339,10 +1337,13 @@ In any case, I found that across 176 decider matches,
 
 
 <br/><br/>
-<h1>5. (You must construct) Additional notes</h1>
+<h1>5. (You must construct)  
+Additional notes</h1>
 Please get in touch if you have found any errors in these charts, if you feel there's something important I forgot to mention, or if you have any requests for insights you'd like me to pull from the database. Anything pertaining to game duration, map details, tournament results, series outcomes or temporal developments should be possible to draw from there. The database also includes some columns that I have not touched upon here, such as birth year of the players, year of publication for maps, ASL tiers, and Ro. 24 and Ro. 16 group affiliations. I have also categorized maps as island or standard but since so few games have been played on island maps, I can't really make any inferences about that. What I don't have is any information about build orders. That would be the next level. But it would be challenging to categorize the build orders in useful ways and very time-consuming to gather the data.
 
 I would like to stress that I am not a statistician. I'm just a layperson with a basic understanding, doing my best. I haven't bothered to calculate p-values for all the charts, and my uncertainty assessments are just estimates. I apologize if you're a professional statistician and reading any of this has caused you to facepalm.
+
+Feel free to copy these charts and tables but please link here if you publish them.
 
 Thanks to Liquipedia for providing most of the data and to everyone who's keeping Starcraft alive during its very first century as the greatest game ever!
 
@@ -1350,3 +1351,7 @@ How to get in touch:
 
 Reddit: <a href="https://reddit.com/u/jacobvso">u/jacobvso</a>  
 TL.net: <a href="https://tl.net/forum/profile.php?user=JackyVSO">JackyVSO</a>
+<br/><br/>
+<br/><br/>
+
+
