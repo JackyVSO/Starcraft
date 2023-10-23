@@ -8,15 +8,27 @@ title: Stats from the remastered era of pro Starcraft 1
 #### by Jacob Stubbe Østergaard / JackyVSO  
 
 ## Introduction
-The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</u></b></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
+The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. It includes combined insights related to:
 
-Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from <a href="https://liquipedia.net/starcraft/Main_Page">Liquipedia</a>, while game duration and spawn location has been collected from AfreecaTV VODs.
-For analysis of ladder game data instead of ASL/KSL, check out <a href="https://tl.net/forum/brood-war/617209-data-analysis-on-8-million-games">Kraekkling's recent work</a>.
+- Game duration
+- Matchup dynamics
+- Player winrates and ratings
+- Map balance
+- Spawn locations
+- Player and matchup development over time
 
-Making these stats available is my attempt to give something back to the community. I hope you find them interesting. Please comment if you have further questions that may be answered from this dataset, and I'll get back to you.
+...and much more.
+
+The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</u></b></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty.
+
+Data for each game includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled the data in a SQL database which I have then queried for the insights. Most of the data has been collected from <a href="https://liquipedia.net/starcraft/Main_Page">Liquipedia</a>, while game duration and spawn location has been collected from the AfreecaTV VODs.
+
+It should be noted that since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels. For analysis of ladder game data instead of ASL/KSL, check out <a href="https://tl.net/forum/brood-war/617209-data-analysis-on-8-million-games">Kraekkling's recent work</a>.
+
+Making these stats available is my attempt to give something back to the community. I hope you find them interesting. Let me know if you have further questions that may be answered from this dataset, and I'll get back to you.
 
 ## Table of contents
-This article is divided into four main parts: Matchups, Maps, Players and Tournament Stats. For the casuals, I recommend using this menu to find the stats you're interested in. For the nerds, I recommend diving right in and reading the article from end to end.
+The article is divided into four main parts: Matchups, Maps, Players and Tournament Stats. For the casuals, I recommend using this menu to find the stats you're interested in. For the nerds, I recommend diving right in and reading the article from end to end.
 
 ### 1. [Matchups](#Matchups)
 - [Frequency of each matchup](#A5)
