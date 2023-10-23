@@ -2,6 +2,7 @@
 layout: default
 title: Stats from the remastered era of pro Starcraft 1
 ---
+<br/><br/>
 
 # Stats from the ASL/KSL era
 #### by Jacob Stubbe Østergaard / JackyVSO  
@@ -9,7 +10,8 @@ title: Stats from the remastered era of pro Starcraft 1
 ## Introduction
 The following is a set of insights gleaned from data on offline Starcraft 1 tournament games at the pro level between 2016 and 2023. The dataset comprises all 16 seasons of ASL and all 4 seasons of KSL for a total of <span style="font-size: 18px;"><b><u>1,906 games</u></b></span>. This is enough to make lots of statistically significant inferences but also few enough that more fine-grained insights that build on a small subset of the games come with a lot of uncertainty. It should also be noted that, since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels.
 
-Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from Liquipedia, while game duration and spawn location has been collected from AfreecaTV VODs.
+Game data includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled this data in a SQL database, which I have then queried for the insights. Most of the data has been collected from <a href="https://liquipedia.net/starcraft/Main_Page">Liquipedia</a>, while game duration and spawn location has been collected from AfreecaTV VODs.
+For analysis of ladder game data instead of ASL/KSL, check out <a href="https://tl.net/forum/brood-war/617209-data-analysis-on-8-million-games">Kraekkling's recent work</a>.
 
 Making these stats available is my attempt to give something back to the community. I hope you find them interesting. Please comment if you have further questions that may be answered from this dataset, and I'll get back to you.
 
@@ -59,7 +61,7 @@ The distribution of matchups of games in the database is as follows:
 <h4 id="A5"></h4>
 <img src="images/A5matchupfrequency.png" alt="Distribution of matchups">
 
-We can see that mirror matchups are quite rare, which is only logical. The comparative scarcity of TvPs can be explained by a slight overrepresentation of Zergs in ASL and KSL in general (see the figures for total games played by each race in the table below) but that leaves no obvious explanation for why there have then been more TvTs than ZvZs. Maybe Zergs try to avoid each other in group selections. Maybe ZvZ series are generally more one-sided and therefore shorter than TvTs series. I don't know. Now let's move on to matchup winrates, about which this study shows that
+We can see that mirror matchups are quite rare, which is only logical. The comparative scarcity of TvPs can be explained by a slight overrepresentation of Zergs in ASL and KSL in general (see the figures for total games played by each race in the table below) but that leaves no obvious explanation for why there have then been more TvTs than ZvZs. Maybe Zergs try to avoid each other in group selections. Maybe ZvZ series are generally more one-sided and therefore shorter than TvTs series. I don't know. Now let's move on to matchup winrates, about which this study indicates that
 
 <span style="font-size: 24px;"><i>Artosis is technically correct - the best kind of correct</i></span>
 <h4 id="A2"></h4>
@@ -123,6 +125,8 @@ These graphs tell quite a different story than the overall winrates. The power d
 First, let's look at how game duration correlates to matchup winrates. 
 
 <span style="font-size: 12px;">*Note:because of the limited data available (only 400-500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*</span>
+
+Looking at winrates across game duration intervals, the trend is that
 
 <h3 id="11"><i>Zerg rules the early game but struggles in the midgame. The late game is balanced.</i></h3>
 
@@ -216,8 +220,10 @@ Since most of these maps have been in use for only one or two seasons, it isn't 
 </table>
 
 *The winrates displayed are for the first race mentioned in the matchup (e.g. Sylphid has a 47.1% winrate for T in TvP, 47.1% for T in TvZ and 58.8% for P in PvZ)*
+<br/><br/>
 
 So Sylphid appears to be the most balanced map yet made, closely followed by (In The Way of An) Eddy, whereas Gladiator is the least balanced - even though it's somehow perfectly balanced in TvZ. Looking at the scores for Vermeer, Polypoid and Circuit Breaker, we can see that what is sometimes termed "standard maps" are actually clearly Terran-favored, whereas more unusual maps might be less comfortable for Terran.
+
 <br/><br/>
 <h1 id="Players">3. Players</h1>
 In this section, we'll abandon the bird's eye view and instead zoom in on how the individual Starcraft 1 pros have been faring against each other. A total of 76 players have qualified for ASL and/or KSL at least once (27 Zerg, 26 Terran, 23 Protoss). Here they are, listed according to how many tournament games they've played:
@@ -487,7 +493,7 @@ In terms of winrates, these are the overall standings:
     </tr>  </tbody>
 </table>
 
-This leaves little room for doubt about who has been the best player in this era of Starcraft. However, FlaSh hasn't played since 2020, and when we'll check a ranking that prioritizes recent performance in a moment, the story will be more ambiguous.
+This leaves little room for doubt about who has been the best player in this era of Starcraft. However, FlaSh hasn't played since 2020, and when, in a moment, we'll check a ranking that privileges recent performance, the story will be more ambiguous.
 
 Now let's take a look at the top players in each matchup:
 
@@ -799,16 +805,16 @@ Now let's take a look at the top players in each matchup:
 </table>
 
 </div>
-
 <span style="font-size: 12px;"><i>Note: Only players with at least 10 games in the matchup have been included</i></span>
+<br/><br/>
 
 A few things I found interesting in those rankings:
-- While Light is often praised for his TvZ, it is statistically his worst matchup
-- Mong has the most lopsided record, being #2 behind FlaSh in TvP but dead last in TvT and TvZ
-- No one has a 55%+ winrate in ZvZ. It really seems to be the most random matchup
-- ZvZ is often listed as SoulKey's "weakness" but he still has a 54% winrate, ranking 3rd
-- FlaSh is #1 in every Terran matchup
-- Rain is the absolute monarch of Aiur...
+- *While Light is often praised for his TvZ, it is statistically his worst matchup*
+- *Mong has the most lopsided record, being #2 behind FlaSh in TvP but dead last in TvT and TvZ*
+- *No one has a 55%+ winrate in ZvZ. It really seems to be the most random matchup*
+- *ZvZ is often listed as SoulKey's "weakness" but he still has a 54% winrate, ranking 3rd*
+- *FlaSh is #1 in every Terran matchup*
+- *Rain is the absolute monarch of Aiur...*
 
 ...which brings us to the next table: best and worst matchup scores across all matchups:
 
@@ -856,9 +862,10 @@ A few things I found interesting in those rankings:
 
 </div>
 <span style="font-size: 12px;"><i>Note: Only players with at least 15 games in the database have been included</i></span>
+<br/><br/>
 
 FlaSh once again asserting dominance by occupying two spots on the top 5, while Mong has the dubious honor of posting two entries to the bottom 5. RoyaL notably manages to be an ASL champion while his TvP is the 5th worst matchup anyone has (with more than 10 ASL/KSL in the matchup).
-<br/>
+<br/><br/>
 <h2 id="4">Elo rankings</h2>
 Now, these winrates have all been historical, spanning the entire period from the 1st ASL in 2016 to the last one in 2023. If we want to get a better idea of who are the strongest players right now, it might be interesting to look at how their Elo rating might look like. Calculating Elo with k = 30 and starting rating = 1600, we get the following ranking as of October 19th, 2023:
 
@@ -991,6 +998,7 @@ Shine is the opposite of Mind: dangerous in the early and late game but vulnerab
 This is Jaedong's graph.
 
 <span style="font-size: 12px;"><i>Note: The intervals in the above graphs have been automatically generated to each represent an equal share (roughly 20%) of the player's games, and only players with a lot of games in the database have been included. The winrate in each duration interval for each player in the graphs above is thus calculated from somewhere between 15 and 30 games. This does mean there's a lot of uncertainty but likely most of the trends are not random.</i></span>
+<br/><br/>
 
 Lastly, before we move on to some general tournament stats, here's a ranking of the pro players from "fastest" to "slowest" based on their average game duration:
 
@@ -1103,10 +1111,11 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
 <span style="font-size: 12px;"><i>Note: Only players with at least 10 games in the database have been included</i></span>
 
 Some findings here:
-- As the "slowest" Zerg player, Action's games are slightly longer than those of the "fastest" Terran player, BarrackS
-- free is practically a Terran trapped in a Protoss' body
-- FlaSh is notably the second fastest Terran, but this may in part be because a few of his matches were not actually played in Terran matchups. This will only have had a minor effect though.
+- *As the "slowest" Zerg player, Action's games are slightly longer than those of the "fastest" Terran player, BarrackS*
+- *free is practically a Terran trapped in a Protoss' body*
+- *FlaSh is notably the second fastest Terran, but this may in part be because a few of his matches were not actually played in Terran matchups. This will only have had a minor effect though.*
 <br/><br/>
+
 <h1 id="TournamentStats">4. Tournament Stats</h1>
 
 In this section, we'll look at some overall stats. First we'll look at the longest and shortest games, game duration by matchup, and game duration by spawn locations. Then we\ll take a look at how Bo5 and Bo7 series normally play out, and then finally the advantage of being seeded and the probability of winning a group decider match.
@@ -1166,6 +1175,7 @@ Just for curiosity's sake, these were the longest games ever played in ASL or KS
 </table>
 
 <span style="font-size: 12px;"><i>Note: Since game duration is only registered by whole minutes completed, games with the same duration in minutes cannot be ranked among each other. There are 27 games in the database that ended between 3:00 and 4:00 but only the four shown above ended between 2:00 and 3:00.</i></span>
+<br/><br/>
 
 SoulKey is known as a macrozerg but that apparently doesn't stop him from having been involved in 3 of the 4 shortest ever games in ASL and KSL.
 
@@ -1249,18 +1259,21 @@ It's well known that cross spawns makes games longer, but this effect is drastic
 </table>
 
 Cross spawns has by far the strongest effect on the duration of PvZs, whereas it has little effect on TvT and TvZ. Again, I'll leave it to the experts to interpret this difference but I'm curious about the answer.
+
+
+
 <br/><br/>
 <h2>Series stats</h2>
 <h3 id="A3">The first game myth</h3>
 
 In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that
 
-- The winner of game 1 ended up winning the Best-of-5 **73.6%** of the time.
+- The winner of game 1 ended up winning the Best-of-5 <span style="font-size: 18px"><b>73.6%</b></span> of the time.
 
 That might look like a lot at first glance but we have to remember that obviously winning any game in a best of 5 is going to greatly increase your chances of winning the whole series. To find out if the first game is really so important, what we can do is compare this figure to the same figure for games 2 and 3. Plugging those into the same query, we find that
 
-- The winner of game 2 ended up winning the Best-of-5 **71.57%** of the time, whereas
-- The winner of game 3 ended up winning the Best-of-5 **73.1%** of the time.
+- The winner of game 2 ended up winning the Best-of-5 <span style="font-size: 18px"><b>71.6%</b></span> of the time, whereas
+- The winner of game 3 ended up winning the Best-of-5 <span style="font-size: 18px"><b>73.1%</b></span> of the time.
 
 So that's what the game 1 advantage amounts to. It's more important than game 3 by 0,5pp and more important than game 2 by 2pp. This is based on 197 Best-of-5s in the database. Running the same calculations for Best-of-7s actually indicates that game 2 is more important than any other game but that's based on only 35 recorded Best-of-7s and therefore tells us almost nothing.
 
@@ -1269,33 +1282,37 @@ Incredibly, in ASL (but not KSL), the game 1 myth has held true for all 16 final
 In conclusion:
 
 <img src="images/busted.png" alt="Busted!">
-<br/>
+<br/><br/>
+
 <h3 id="A4">Map selection advantage</h3>
 
 Players and casters often place some emphasis on the advantage of map selection. I wanted to test this assumption also and in doing so, I found something surprising:
 
 <h4><i>Being the one who selects the map is just as important in mirror matchups as in non-mirror matchups</i></h4>
 
-Generally speaking, 
+Generally speaking;
 
-- the player who chose the map won the game in **54.9%** of cases, 
-- whereas for mirror matchups only, the map chooser won **54.4%** of the time
+- the player who chose the map went on to win the game in <span style="font-size: 18px"><b>54.9%</b></span> of cases, 
+- whereas for mirror matchups only, the map chooser won <span style="font-size: 18px"><b>54.4%</b></span> of the time
 
 This is surprising because the advantage of choosing a map is often chalked up to being about whether this map is generally good for your race in the given matchup or not.
 
 The relatively low overall winrate for the map chooser seems partially to be due to the limited average range of choices. Once we get to the last few maps of the series, there might only be two or three maps left to choose from, which might not be much of an advantage. As such, we can see that when counting only the first map choice:
 
-- the player who chose the first map won that game in **61.1%** of cases,
-- whereas in mirror matchups only, the first map chooser won **60.5%** of the time
+- the player who chose the first map won that game in <span style="font-size: 18px"><b>61.1%</b></span> of cases,
+- whereas in mirror matchups only, the first map chooser won <span style="font-size: 18px"><b>60.5%</b></span> of the time
 
 Although non-mirror matchups appear to show a very slightly greater map choice advantage, this is well within the bracket of uncertainty.
-<br/>
+
+<br/><br/>
+
 <h3>Reverse sweeps</h3>
 
-The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at **6%**.
+The last series stat I've registered is the probability of reverse sweeps. In 197 Best-of-5s, we have seen six reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at <span style="font-size: 18px"><b>6%</b></span>.
 
 In 35 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
-<br/>
+
+<br/><br/>
 <h3 id="A7">Seeds</h3>
 
 Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
@@ -1307,8 +1324,8 @@ This means that the average result for a seeded player was roughly getting elimi
 
 To further galvanize this point, becoming a seeded player greatly increases your chance of becoming a seeded player again in the next season:
 
-- Probability of gaining seed as already seeded player: **36.7%**
-- Probability of gaining seed as non-seeded player: **18.4%**
+- Probability of gaining seed as already seeded player: <span style="font-size: 18px"><b>36.7%</b></span>
+- Probability of gaining seed as non-seeded player: <span style="font-size: 18px"><b>18.4%</b></span>
 <br/>
 <h3 id="A8">Decider matches: Winners' loser vs losers' winner</h3>
 
@@ -1316,10 +1333,20 @@ That leaves just one more thing I wanted to check. Something has always bothered
 
 In any case, I found that across 176 decider matches,
 
-- Winners' loser advanced **53%** of the time, while
-- Losers' winner advanced **47%** of the time
+- Winners' loser advanced <span style="font-size: 18px"><b>53%</b></span> of the time, while
+- Losers' winner advanced <span style="font-size: 18px"><b>47%</b></span> of the time
 
 
 
 <br/><br/>
-<h1>5. Additional notes</h1>
+<h1>5. (You must construct) Additional notes</h1>
+Please get in touch if you have found any errors in these charts, if you feel there's something important I forgot to mention, or if you have any requests for insights you'd like me to pull from the database. Anything pertaining to game duration, map details, tournament results, series outcomes or temporal developments should be possible to draw from there. The database also includes some columns that I have not touched upon here, such as birth year of the players, year of publication for maps, ASL tiers, and Ro. 24 and Ro. 16 group affiliations. I have also categorized maps as island or standard but since so few games have been played on island maps, I can't really make any inferences about that. What I don't have is any information about build orders. That would be the next level. But it would be challenging to categorize the build orders in useful ways and very time-consuming to gather the data.
+
+I would like to stress that I am not a statistician. I'm just a layperson with a basic understanding, doing my best. I haven't bothered to calculate p-values for all the charts, and my uncertainty assessments are just estimates. I apologize if you're a professional statistician and reading any of this has caused you to facepalm.
+
+Thanks to Liquipedia for providing most of the data and to everyone who's keeping Starcraft alive during its very first century as the greatest game ever!
+
+How to get in touch:
+
+Reddit: <a href="https://reddit.com/u/jacobvso">u/jacobvso</a>  
+TL.net: <a href="https://tl.net/forum/profile.php?user=JackyVSO">JackyVSO</a>
