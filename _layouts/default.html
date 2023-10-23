@@ -32,16 +32,21 @@
       h1 {
             font-size: 48px;
       }
+      table {
+            max-width: 800px;
+            width: 100%; /* Allow tables to be responsive within their container */
+            margin: 0 auto; /* Center tables horizontally */
+            }
       .table {
             font-family: 'IBM Plex Mono', sans-serif;
             max-width: 800px;
-            width: 100%;
+            width: 80%;
             border-collapse: collapse;
             margin: 50px auto;
       }
       .dataframe, .table, .table-bordered, .table-striped {
-            max-width: 100%; /* Ensure that specific tables don't exceed the width of their container */
-            width: 100%; /* Use 100% of the available width within their container */
+            max-width: 800px; /* Ensure that specific tables don't exceed the width of their container */
+            width: 80%; /* Use 100% of the available width within their container */
             margin: 0 auto; /* Center the tables horizontally within their container */
       }
       .table th, .table td {
