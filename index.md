@@ -77,7 +77,7 @@ The distribution of matchups of games in the database is as follows:
 
 We can see that mirror matchups are quite rare, which is only logical. The comparative scarcity of TvPs can be explained by a slight overrepresentation of Zergs in ASL and KSL in general (see the figures for total games played by each race in the table below) but that leaves no obvious explanation for why there have then been more TvTs than ZvZs. Maybe Zergs try to avoid each other in group selections. Maybe ZvZ series are generally more one-sided and therefore shorter than TvTs series. I don't know. Now let's move on to matchup winrates, about which this study indicates that
 
-<span style="font-size: 24px;"><i>Artosis is technically correct - the best kind of correct</i></span>
+<span style="font-size: 24px;"><i>Artosis is technically correct (the best kind of correct)</i></span>
 <h4 id="A2"></h4>
 
 This table shows the overall winrate for each race across both its non-mirror matchups:
