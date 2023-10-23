@@ -34,7 +34,7 @@
       }
       table {
             max-width: 800px;
-            width: 100%; /* Allow tables to be responsive within their container */
+            width: 80%; /* Allow tables to be responsive within their container */
             margin: 0 auto; /* Center tables horizontally */
             }
       .table {
@@ -44,11 +44,6 @@
             border-collapse: collapse;
             margin: 50px auto;
       }
-      .dataframe, .table, .table-bordered, .table-striped {
-            max-width: 800px; /* Ensure that specific tables don't exceed the width of their container */
-            width: 80%; /* Use 100% of the available width within their container */
-            margin: 0 auto; /* Center the tables horizontally within their container */
-      }
       .table th, .table td {
             padding: 8px 12px;
             text-align: center;
@@ -56,6 +51,10 @@
       .table th {
             background-color: #a2afbe;
             color: #000000;
+      }
+      .table tr {
+            max-width: 100%;
+            width: 100%;
       }
       .table-striped tbody tr:nth-child(odd) {
             background-color: #d2dfee;
