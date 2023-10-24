@@ -879,7 +879,7 @@ A few things I found interesting in those rankings:
 <span style="font-size: 12px;"><i>Note: Only players with at least 15 games in the database have been included</i></span>
 <br/><br/>
 
-FlaSh once again asserting dominance by occupying two spots on the top 5, while Mong has the dubious honor of posting two entries to the bottom 5. RoyaL notably manages to be an ASL champion while his TvP is the 5th worst matchup anyone has (with more than 10 ASL/KSL in the matchup).
+FlaSh once again asserting dominance by occupying two spots on the top 5, while Mong has the dubious honor of posting two entries to the bottom 5. RoyaL notably manages to be an ASL champion while his TvP is the 5th worst matchup anyone has (with more than 10 ASL/KSL games in the matchup).
 <br/><br/>
 <h2 id="4">Elo rankings</h2>
 Now, these winrates have all been historical, spanning the entire period from the 1st ASL in 2016 to the last one in 2023. If we want to get a better idea of who are the strongest players right now, it might be interesting to look at how their Elo rating might look like. Calculating Elo with k = 30 and starting rating = 1600, we get the following ranking as of October 19th, 2023:
@@ -1126,14 +1126,14 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
 <span style="font-size: 12px;"><i>Note: Only players with at least 10 games in the database have been included</i></span>
 
 Some findings here:
-- *As the "slowest" Zerg player, Action's games are slightly longer than those of the "fastest" Terran player, BarrackS*
-- *free is practically a Terran trapped in a Protoss' body*
-- *FlaSh is notably the second fastest Terran, but this may in part be because a few of his matches were not actually played in Terran matchups. This will only have had a minor effect though.*
+- As the "slowest" Zerg player, Action's games are slightly longer than those of the "fastest" Terran player, BarrackS
+- free is practically a Terran trapped in a Protoss' body
+- FlaSh is notably the second fastest Terran, but this may in part be because a few of his matches were not actually played in Terran matchups. This will only have had a minor effect though.
 <br/><br/>
 
 <h1 id="TournamentStats">4. Tournament Stats</h1>
 
-In this section, we'll look at some overall stats. First we'll look at the longest and shortest games, game duration by matchup, and game duration by spawn locations. Then we\ll take a look at how Bo5 and Bo7 series normally play out, and then finally the advantage of being seeded and the probability of winning a group decider match.
+In this section, we'll look at some overall stats. First we'll look at the longest and shortest games, game duration by matchup, and game duration by spawn locations. Then we'll take a look at how Bo5 and Bo7 series normally play out, and then finally the advantage of being seeded and the probability of winning a group decider match.
 <br/>
 <h2 id="9">Longest and shortest games in ASL/KSL history</h2>
 
