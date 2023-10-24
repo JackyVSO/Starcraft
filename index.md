@@ -1049,17 +1049,17 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
     </tr><tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">11</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Sacsri</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:20</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>SoulKey</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:25</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">12</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Jaedong</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:24</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Bisu</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:37</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">13</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>SoulKey</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:25</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>ggaemo</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:40</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">14</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Bisu</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:37</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Mini</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:43</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">15</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>ggaemo</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:40</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Modesty</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:49</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Mini</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:43</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Jaedong</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:54</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">17</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Modesty</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13:49</span></td>
     </tr><tr>
     <td style="background-color: #e2effe;"><span style="color: #000000;">18</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Movie</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">13:56</span></td>
     </tr><tr>
@@ -1069,43 +1069,43 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
     </tr><tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">21</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>BarrackS</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:00</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">22</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Action</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:13</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">22</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>nOOb</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:08</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Horang2</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:41</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">23</span></td><td style="background-color: #d2dfee;"><span style="color: #d73529;"><b>Action</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Zerg</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:13</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Rain</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:47</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">24</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Horang2</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:41</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>FlaSh</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:48</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">25</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Jaehoon</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:46</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>RoyaL</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:50</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">26</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Rain</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:47</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">27</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Stork</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:53</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">27</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>FlaSh</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:48</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">28</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Best</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:02</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">28</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>RoyaL</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14:50</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Ample</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:08</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">29</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Stork</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14:53</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>ForGG</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:22</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">30</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Best</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:02</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">31</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Rush</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:24</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">31</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Ample</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:08</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Jaehoon</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:28</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">32</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>ForGG</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:22</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">33</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>GuemChi</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:30</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">33</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Rush</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:24</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Snow</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:40</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">34</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>GuemChi</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:30</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Light</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:42</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">35</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Snow</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:40</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Piano</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:55</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">36</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Light</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">15:42</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">37</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Shuttle</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:02</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">37</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Piano</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15:55</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Leta</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:05</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">38</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>Shuttle</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:02</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Last</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:07</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">39</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Leta</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:05</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td><td style="background-color: #e2effe;"><span style="color: #d3a514;"><b>nOOb</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Protoss</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:08</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">40</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Last</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16:07</span></td>
     </tr><tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">41</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mind</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16:36</span></td>
     </tr><tr>
@@ -1119,7 +1119,7 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
     </tr><tr>
     <td style="background-color: #e2effe;"><span style="color: #000000;">46</span></td><td style="background-color: #e2effe;"><span style="color: #1578da;"><b>Sharp</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Terran</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17:42</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mong</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">18:45</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">47</span></td><td style="background-color: #d2dfee;"><span style="color: #1578da;"><b>Mong</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Terran</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">18:22</span></td>
     </tr>  </tbody>
 </table>
 
@@ -1197,6 +1197,7 @@ SoulKey is known as a macrozerg but that apparently doesn't stop him from having
 Unsurprisingly, the three longest ever games were all TvTs. These are the average game durations by matchup:
 
 <h4 id="A9"></h4>
+
 <table border="1" class="dataframe table table-striped table-bordered">
     <thead>
     <tr>
@@ -1207,15 +1208,15 @@ Unsurprisingly, the three longest ever games were all TvTs. These are the averag
     <tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">TvT</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17m58s</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m57s</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m54s</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m37s</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m34s</span></td>
     </tr><tr>
     <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14m20s</span></td>
     </tr><tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12m25s</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m24s</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m16s</span></td>
     </tr>  </tbody>
 </table>
 
@@ -1227,7 +1228,7 @@ And these have been the longest games in each matchup respectively:
     <thead>
     <tr>
     <th colspan="8" style="font-size: 24px; text-align: center;">Longest game of each matchup</th>
-</tr><tr style="text-align: right;"><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tmnt.</th><th>S.</th><th>Duration</th>    </tr>
+</tr><tr style="text-align: right;"><th>Matchup</th><th>Winner</th><th>Loser</th><th>Map</th><th>Date</th><th>Tournament</th><th>Season</th><th>Duration</th>    </tr>
     </thead>
     <tbody>
     <tr>
@@ -1241,7 +1242,7 @@ And these have been the longest games in each matchup respectively:
     </tr><tr>
     <td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>Snow</b></span></td><td style="background-color: #d2dfee;"><span style="color: #d3a514;"><b>free</b></span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">Optimizer</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">2020-10-11</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">ASL</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">10</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;"><b>31 minutes</b></span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>ZeLoT</b></span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Jaedong</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Sylphid</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2019-7-7</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ASL</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">8</span></td><td style="background-color: #e2effe;"><span style="color: #000000;"><b>28 minutes</b></span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>Action</b></span></td><td style="background-color: #e2effe;"><span style="color: #d73529;"><b>EffOrt</b></span></td><td style="background-color: #e2effe;"><span style="color: #000000;">Apocalypse</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">2023-8-21</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ASL</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16</span></td><td style="background-color: #e2effe;"><span style="color: #000000;"><b>23 minutes</b></span></td>
     </tr>  </tbody>
 </table>
 
@@ -1257,19 +1258,19 @@ It's well known that cross spawns makes games longer, but this effect is drastic
     </thead>
     <tbody>
     <tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13m46s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16m8s</span></td><td style="background-color: #1150ee;"><span style="color: #000000;">+17.7%</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">13m38s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">16m8s</span></td><td style="background-color: #1150ee;"><span style="color: #000000;">19.03</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m20s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">10m32s</span></td><td style="background-color: #537eee;"><span style="color: #000000;">+13.5%</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m20s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">10m32s</span></td><td style="background-color: #6087ee;"><span style="color: #000000;">13.53</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">Overall</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m23s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15m45s</span></td><td style="background-color: #8ea8ee;"><span style="color: #000000;">+9.8%</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">Overall</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m21s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15m45s</span></td><td style="background-color: #92abee;"><span style="color: #000000;">10.04</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m34s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17m53s</span></td><td style="background-color: #a6b9ee;"><span style="color: #000000;">+8.3%</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m34s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17m53s</span></td><td style="background-color: #abbdee;"><span style="color: #000000;">8.25</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11m58s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12m51s</span></td><td style="background-color: #adbeee;"><span style="color: #000000;">+7.8%</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">11m58s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12m51s</span></td><td style="background-color: #b1c1ee;"><span style="color: #000000;">7.82</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">TvT</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m58s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17m51s</span></td><td style="background-color: #d3d9ee;"><span style="color: #000000;">+5.4%</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">TvT</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m58s</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">17m51s</span></td><td style="background-color: #d4d9ee;"><span style="color: #000000;">5.38</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m34s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15m13s</span></td><td style="background-color: #dfe1ee;"><span style="color: #000000;">+4.6%</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m34s</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">15m13s</span></td><td style="background-color: #dfe1ee;"><span style="color: #000000;">4.63</span></td>
     </tr>  </tbody>
 </table>
 
