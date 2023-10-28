@@ -135,7 +135,7 @@ While these figures are very unsurprising, the story becomes a lot more interest
 <img src="./images/6TvZwinrates.png" alt="TvZ winrate year on year" class="wide-image">
 <img src="./images/6PvZwinrates.png" alt="PvZ winrate year on year" class="wide-image">
 
-These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The pictures becomes still more nuanced when we take game duration and spawn locations into consideration.  
+These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The picture becomes still more nuanced when we take game duration and spawn locations into consideration.  
 First, let's look at how game duration correlates to matchup winrates. 
 
 <span style="font-size: 12px;">*Note:because of the limited data available (only 400-500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*</span>
@@ -173,7 +173,7 @@ Moving on to spawn locations, we come to one of the most unambiguous findings of
 
 Such strong discrepancies across 200+ games in each matchup on 4-player maps is unlikely to have happened randomly. This table begins to reveal how the overall winrate of each matchup is really just an average of a range of varied winrates under specific conditions. TvP in general might be slightly Protoss-favored but TvP on a 4 player map with adjacent spawns is strongly Terran-favored.
 
-If that table began to reveal how circumstance-dependent the power dynamics between the races are, these charts should drive the point home. They show how matchup winrates are affect by whether it's a 2-player, 3-player or 4-player map:
+If that table began to reveal how circumstance-dependent the power dynamics between the races are, these charts should drive the point home. They show how matchup winrates are affected by whether it's a 2-player, 3-player or 4-player map:
 
 <h4 id="7"></h4>
 <img src="images/7TvPspawns.png" alt="TvP winrates by number of spawn locations">
@@ -1365,6 +1365,9 @@ How to get in touch:
 
 Reddit: <a href="https://reddit.com/u/jacobvso">u/jacobvso</a>  
 TL.net: <a href="https://tl.net/forum/profile.php?user=JackyVSO">JackyVSO</a>
+
+If you're interested in a detailed explanation of how I did this, that is available [here](https://github.com/JackyVSO/Starcraft/blob/main/readme.md).
+
 <br/><br/>
 <br/><br/>
 
