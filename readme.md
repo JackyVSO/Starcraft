@@ -427,7 +427,7 @@ With 22 graphs and tables and some further microinsights now at hand, there rema
 
 I opted to publish the data on a page on Github Pages, which offered me the convenience of updating automatically from my Github repository, which I could in turn push to from my local machine. I wrote the document in Markdown but including a lot of raw HTML for customization. Again, I used ChatGPT to instruct me about things like CSS rulesets, as I have some nightmarish memories from the pre-AI era of the exquisite frustration of trying to align containers and images and different kinds of content on a website and adapting it to varying screen sizes. Each insight as accompanied by my analysis of the data including notes and caveats about the statistical implications - or lack thereof - of each figure. (Since this project is primarily for entertainment, I have not been as strict with my statistical analysis as I would definitely need to be if import decisions were riding on my data).
 
-![Page screenshot](https://www.dropbox.com/scl/fi/uqxvouya0r6927nb8p1mo/headerscreenshot.png?rlkey=ju087hxdyxihninsfxtbp52vg&raw=1)
+![Page screenshot](https://www.dropbox.com/scl/fi/soxxld8w6uzurct411ioh/headerscreenshot.png?rlkey=r4f2h7hfla5w90yxokf8dyz84&raw=1)
 
 *Screenshot of the page as it appears on a big screen*
 
@@ -447,6 +447,6 @@ This project has taught me about:
 
 You can view the finished webpage here:
 
-[Starcraft stats](https://jackyvso.github.io/Starcraft)
+[Stats from the ASL/KSL era of Starcraft 1](https://jackyvso.github.io/Starcraft)
 
 
