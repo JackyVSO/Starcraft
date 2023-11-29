@@ -118,9 +118,9 @@ Once the tedious work of collecting all the data was well over with and the data
 
 With the database in order, I was now able to answer questions about pro Starcraft by writing SQL queries to the database. However, I didn't just want to have my questions answered. I wanted to visualize my insights. For this purpose, I needed them stored neatly in spreadsheets. I also wanted to gather some insights that required a bit of processing beyond SQL queries.  
 
-Out of 22 insights that I chose to visualize in tables or graphs for this project, some were very easy to pull from the database, while others required a quite a bit of Python code. This stage is also the "data transformation" stage where I prepare and reformat the raw data from the database for human consumption. I found Python a splendidly suitable tool for this, again much more versatile than desktop apps like Excel or Power BI, although more specialized apps also exist that could enhance this process even further. 
+Out of 22 insights that I chose to visualize in tables or graphs for this project, some were very easy to pull from the database, while others required quite a bit of Python code. This stage is also the "data transformation" stage where I prepare and reformat the raw data from the database for human consumption. I found Python a splendidly suitable tool for this, again much more versatile than desktop apps like Excel or Power BI, although more specialized apps also exist that could enhance this process even further. 
 
-Here are two examples of how I extracted, transformed and serialized the data. The first example concerns the "maps" that the games are played on. I wanted to rank the maps according to how fair they are (a fair map does not advantage any race over any other), which I was able calculate statistically by looking at win ratios for each race on each map. This is how I did it:
+Here are two examples of how I extracted, transformed and serialized the data. The first example concerns the "maps" that the games are played on. I wanted to rank the maps according to how fair they are (a fair map does not advantage any race over any other), which I was able to calculate statistically by looking at win ratios for each race on each map. This is how I did it:
 
 ```python
 def mapbalance():
