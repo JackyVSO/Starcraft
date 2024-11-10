@@ -123,9 +123,9 @@ So Terran does do noticeably worse without Flash, but still better than Zerg wit
 Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
 <h4 id="A11"></h4>
-<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="250" height="auto" margin=0 style="display: inline;">
-<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="250" height="auto" margin=0 style="display: inline;">
-<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="250" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="300" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="300" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="300" height="auto" margin=0 style="display: inline;">
 <br/>
 
 While these figures are very unsurprising, the story becomes a lot more interesting when we go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
@@ -139,7 +139,8 @@ While these figures are very unsurprising, the story becomes a lot more interest
 These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The picture becomes still more nuanced when we take game duration and spawn locations into consideration.  
 First, let's look at how game duration correlates to matchup winrates. 
 <br/>
-<span style="font-size: 12px;">*Note:because of the limited data available (only 500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*</span>
+<span style="font-size: 12px;"><i>Note:because of the limited data available (only 500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.</i></span>
+<br/><br/>
 
 Looking at winrates across game duration intervals, the trend is that
 
@@ -189,8 +190,8 @@ PvZ seems hardly to be affected by the number of spawning locations on the map. 
 Now let's keep our focus on the maps for a bit before we move on to stats about players. No less than 78 different maps have been used in ASL and KSL: 22 2-player maps (603 games), 15 3-player maps (425 games), and 41 4-player maps (1079 games).
 
 Since most of these maps have been in use for only one or two seasons, it isn't really possible to glean any statistical insights from them. However, for the most popular maps which have been played across many seasons, it should be possible to make meaningful comparisons. I thought it might be interesting to devise a metric to score these maps according to how balanced they are. The following balance ranking of the 13 most played maps was calculated using RMSE (root mean squared error) across the three matchups, with 50.0% as the target value.
-
-<span style="font-size: 12px;">*Note: Using RMSE instead of MAE (mean absolute error) means that a strong bias in one matchup is punished more than a moderate bias across all matchups. Whether to use one or the other is a question of what one's idea of balance really is. I'm using RMSE because I personally think a map that is perfectly balanced in two matchups but has a 75% bias in the third one is less balanced than one that has scores of, say, 57/40/58.*</span>
+<br/>
+<span style="font-size: 12px;"><i>Note: Using RMSE instead of MAE (mean absolute error) means that a strong bias in one matchup is punished more than a moderate bias across all matchups. Whether to use one or the other is a question of what one's idea of balance really is. I'm using RMSE because I personally think a map that is perfectly balanced in two matchups but has a 75% bias in the third one is less balanced than one that has scores of, say, 57/40/58.</i></span>
 
 <h4 id="8"></h4>
 <table border="1" class="dataframe table table-striped table-bordered">
@@ -1025,7 +1026,7 @@ Shine is dangerous in the early and late game but vulnerable in the midgame.
 
 <img src="images/13Jaedongwinratebyduration.png" alt="Winrate by duration, Jaedong" class="wide-image">
 
-Jaedong's graph is the most anomalous. He has an extremely low winrate in games that end after 11 to 14 minutes but a very solid winrate in games that end after 8 to 11 and 14 to 19 minutes. In SSL 1, we saw him miss his lurker timing against Light and lose after 11 minutes, which was symptomatic of his TvZ as a whole accordin to Artosis.
+Jaedong's graph is the most anomalous. He has an extremely low winrate in games that end after 11 to 14 minutes but a very solid winrate in games that end after 8 to 11 and 14 to 19 minutes. In SSL 1, we saw him miss his lurker timing against Light and lose after 11 minutes, which was symptomatic of his TvZ as a whole according to Artosis.
 <br/>
 <span style="font-size: 12px;"><i>Note: The intervals in the above graphs have been automatically generated to each represent an equal share (roughly 20%) of the player's games, and only players with a lot of games in the database have been included. The winrate in each duration interval for each player in the graphs above is thus calculated from somewhere between 15 and 30 games. This does mean there's a lot of uncertainty but likely most of the trends are not random.</i></span>
 <br/><br/>
@@ -1435,10 +1436,10 @@ In 45 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
 
 Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
 <br/><br/>
-- Average result of seeded player: **8.3**<br/>
-- Average result of non-seeded player: **14.8**
+- Average result of seeded player: <b>8.3</b><br/>
+- Average result of non-seeded player: <b>14.8</b>
 <br/><br/>
-This means that the average result for a seeded player was roughly getting eliminated in the Round of 8, whereas the average result of a non-seeded player was roughly getting eliminated in the Round of 16. This is a really considerable advantage, and it should be noted I am comparing the **same set of players**, meaning the average result for non-seeded players listed here is the average result for *players who have been seeded in at least one season, in seasons where they were not seeded*. So the figures can't be explained by arguing that players who earn a seed are obviously just better than those who don't. More likely the explanation is that the ASL's Round of 24 with its Best-of-1 format is a real slaughterhouse that even the best players struggle to make it out of alive.
+This means that the average result for a seeded player was roughly getting eliminated in the Round of 8, whereas the average result of a non-seeded player was roughly getting eliminated in the Round of 16. This is a really considerable advantage, and it should be noted I am comparing the <b>same set of players</b>, meaning the average result for non-seeded players listed here is the average result for <i>players who have been seeded in at least one season, in seasons where they were not seeded</i>. So the figures can't be explained by arguing that players who earn a seed are obviously just better than those who don't. More likely the explanation is that the ASL's Round of 24 with its Best-of-1 format is a real slaughterhouse that even the best players struggle to make it out of alive.
 <br/><br/>
 To further galvanize this point, becoming a seeded player greatly increases your chance of becoming a seeded player again in the next season:
 <br/><br/>
