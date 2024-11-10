@@ -118,7 +118,7 @@ This table shows the overall winrate for each race across both its non-mirror ma
 
 So Terran does do noticeably worse without Flash, but still better than Zerg without Soulkey. So while there's still a tiny bit of fuel for the "Protoss is OP" argument, there isn't much left for the "Terran has it hardest" argument - at least not in this dataset.
 
-(While this was all a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.6 vs 49.76 over Terran amounts to an advantage of no more than six games, which makes it statistically insignificant by any reasonable standards. There is really only one thing that these numbers show very clearly, and that is that **Starcraft is an eerily well balanced game** - at least when played on carefully designed maps)  
+(While this was all a fun exercise, I should really emphasize that it means very little. The Protoss winrate advantage of 50.6 vs 49.76 over Terran amounts to an advantage of no more than six games, which makes it statistically insignificant by any reasonable standards. There is really only one thing that these numbers show very clearly, and that is that <b>Starcraft is an eerily well balanced game</b> - at least when played on carefully designed maps)  
 
 Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
@@ -182,7 +182,7 @@ If that table began to reveal how circumstance-dependent the power dynamics betw
 <img src="images/7TvZspawns.png" alt="TvZ winrates by number of spawn locations">
 <img src="images/7PvZspawns.png" alt="PvZ winrates by number of spawn locations">
 
-The most notable thing here is just how lopsided TvP on 2-player maps is. Out of 133 games in the database, Terran has won 46 and Protoss has won 87. If TvP was never played on 2-player maps, it would be a Terran-favored matchup. Terran also fares better with more spawning locations against Zerg, although this is far less pronounced. This is consistent with another finding in the data, which was that *the bigger the map (by size in tiles), the better for Terran*. I have not included that figure here because it shows the same as the above but less markedly.
+The most notable thing here is just how lopsided TvP on 2-player maps is. Out of 133 games in the database, Terran has won 46 and Protoss has won 87. If TvP was never played on 2-player maps, it would be a Terran-favored matchup. Terran also fares better with more spawning locations against Zerg, although this is far less pronounced. This is consistent with another finding in the data, which was that <i>the bigger the map (by size in tiles), the better for Terran</i>. I have not included that figure here because it shows the same as the above but less markedly.
 PvZ seems hardly to be affected by the number of spawning locations on the map. There's a slight advantage for Protoss on 3-player maps and for Zerg on 2- and 4-player maps but it's small enough to be random. I'll leave it to more accomplished players to explain why this matchup is the least affected.  
 <br/><br/>
 <h1 class="h1" id="Maps"> 2. Maps</h1>
@@ -234,7 +234,7 @@ Since most of these maps have been in use for only one or two seasons, it isn't 
     </tr>  </tbody>
 </table>
 
-*The winrates displayed are for the first race mentioned in the matchup (e.g. Sylphid has a 47.1% winrate for T in TvP, 47.1% for T in TvZ and 58.8% for P in PvZ)*
+<i>The winrates displayed are for the first race mentioned in the matchup (e.g. Sylphid has a 47.1% winrate for T in TvP, 47.1% for T in TvZ and 58.8% for P in PvZ)</i>
 <br/><br/>
 
 So Sylphid appears to be the most balanced map yet made, closely followed by Retro, whereas Dark Origin is the least balanced - being very Zerg favored (and Protoss favored in TvP). Looking at the scores for Vermeer, Polypoid and Circuit Breaker, we can see that what is sometimes termed "standard maps" are actually clearly Terran-favored, whereas more unusual maps might be less comfortable for Terran.
