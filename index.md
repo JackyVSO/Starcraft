@@ -25,7 +25,7 @@ The dataset comprises all 18 seasons of ASL/SSL and all 4 seasons of KSL for a t
 
 Data for each game includes players, outcome, date, duration, spawn locations, map details, map selection and tournament context. I have personally compiled the data in a SQL database which I have then queried for the insights. Most of the data has been collected from <a href="https://liquipedia.net/starcraft/Main_Page">Liquipedia</a>, while game duration and spawn location has been collected from the AfreecaTV VODs.
 
-It should be noted that since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels. For analysis of ladder game data instead of ASL/KSL, check out <a href="https://tl.net/forum/brood-war/617209-data-analysis-on-8-million-games">Kraekkling's recent work</a>.
+It should be noted that since the dataset consists exclusively of top level games, the insights in this article apply only to Starcraft played at the very highest skill level. Different dynamics may be at play at other levels. For analysis of ladder game data instead of ASL/KSL, check out <a href="https://tl.net/forum/brood-war/617209-data-analysis-on-8-million-games">Kraekkling's work</a>.
 
 Making these stats available is my attempt to give something back to the community. I hope you find them interesting. Let me know if you have further questions that may be answered from this dataset, and I'll get back to you.
 
@@ -123,9 +123,10 @@ So Terran does do noticeably worse without Flash, but still better than Zerg wit
 Now let's look at the winrates for the individual non-mirror matchups. The numbers confirm the well-known pattern of T > Z > P > T but suggest that Zerg's advantage over Protoss is slightly smaller than Terran's advantage over Zerg and Protoss' advantage over Terran:  
 
 <h4 id="A11"></h4>
-<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="255" height="auto" margin=0 style="display: inline;">
-<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="255" height="auto" margin=0 style="display: inline;">
-<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="255" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11TvPoverallwinrate.png" alt="TvP overall winrate" width="250" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11TvZoverallwinrate.png" alt="TvZ overall winrate" width="250" height="auto" margin=0 style="display: inline;">
+<img src="./images/A11PvZoverallwinrate.png" alt="PvZ overall winrate" width="250" height="auto" margin=0 style="display: inline;">
+<br/>
 
 While these figures are very unsurprising, the story becomes a lot more interesting when we go into some more detail. For starters, let's take a look at the development of the matchup winrates year on year:
 
@@ -137,7 +138,7 @@ While these figures are very unsurprising, the story becomes a lot more interest
 
 These graphs tell quite a different story than the overall winrates. The power distributions have actually fluctuated greatly as the races have struggled for the upper hand in the metagame. The picture becomes still more nuanced when we take game duration and spawn locations into consideration.  
 First, let's look at how game duration correlates to matchup winrates. 
-
+<br/>
 <span style="font-size: 12px;">*Note:because of the limited data available (only 500 tournament games played in each non-mirror matchup since 2016), I have created these graphs using 10 automatically clustered intervals, which means the intervals are of different length but each represent roughly the same amount of games (20-50 games per interval). Using any more intervals than this, let alone setting a point for every single minute, would leave some intervals with way too few data points, which would make the graphs noisy/random. The presented graphs represent a compromise between that and a very coarse version with only a few intervals but more certainty. Their minor details do not represent reality but their major trends are accurate.*</span>
 
 Looking at winrates across game duration intervals, the trend is that
@@ -1001,31 +1002,31 @@ Having access to the each game's duration, I drew up a script to search for play
 <img src="images/13JyJwinratebyduration.png" alt="Winrate by duration, JyJ" class="wide-image">
 
 Snow and JyJ both show a clear trend. If the game is short, they likely lose. The longer the game goes on, the more likely they are to end up winning.
-
+<br/>
 <h3>If you're playing BarrackS, you have a window</h3>
 
 <img src="images/13BarrackSwinratebyduration.png" alt="Winrate by duration, BarrackS" class="wide-image">
 
 BarrackS very often loses after 15-17 minutes but if he makes it past that, he's actually likely to win. 
-
+<br/>
 <h3>If you're playing Mini, try to survive until the late game</h3>
 
 <img src="images/13Miniwinratebyduration.png" alt="Winrate by duration, Mini" class="wide-image">
 
 Ever aggressive, Mini wins his games in the early and midgame.
-
+<br/>
 <h3>If you're playing Shine, kill him in the midgame</h3>
 
 <img src="images/13Shinewinratebyduration.png" alt="Winrate by duration, Shine" class="wide-image">
 
 Shine is dangerous in the early and late game but vulnerable in the midgame.
-
+<br/>
 <h3>Jaedong is weak for three minutes</h3>
 
 <img src="images/13Jaedongwinratebyduration.png" alt="Winrate by duration, Jaedong" class="wide-image">
 
-Jaedong's graph is the most anomalous. He has an extremely low winrate in games that end after 11 to 14 minutes but a very solid winrate in games that end after 8 to 11 and 14 to 17 minutes. In SSL 1, we saw him miss his lurker timing against Light and lose after 11 minutes, which was symptomatic of his TvZ as a whole accordin to Artosis.
-
+Jaedong's graph is the most anomalous. He has an extremely low winrate in games that end after 11 to 14 minutes but a very solid winrate in games that end after 8 to 11 and 14 to 19 minutes. In SSL 1, we saw him miss his lurker timing against Light and lose after 11 minutes, which was symptomatic of his TvZ as a whole accordin to Artosis.
+<br/>
 <span style="font-size: 12px;"><i>Note: The intervals in the above graphs have been automatically generated to each represent an equal share (roughly 20%) of the player's games, and only players with a lot of games in the database have been included. The winrate in each duration interval for each player in the graphs above is thus calculated from somewhere between 15 and 30 games. This does mean there's a lot of uncertainty but likely most of the trends are not random.</i></span>
 <br/><br/>
 
@@ -1140,7 +1141,7 @@ Lastly, before we move on to some general tournament stats, here's a ranking of 
 </table>
 
 <span style="font-size: 12px;"><i>Note: Only players with at least 10 games in the database have been included</i></span>
-
+<br/>
 Some findings here:
 - BarrackS is suspiciously up there with the Zergs. Infested?
 - free is practically a Terran trapped in a Protoss' body
@@ -1313,17 +1314,17 @@ Unsurprisingly, the two longest ever games were all TvTs. These are the average 
     </thead>
     <tbody>
     <tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">TvT</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17m58s</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">1</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">TvT</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">17m46s</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m54s</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">2</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvP</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">16m38s</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m34s</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">3</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvZ</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">14m31s</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14m20s</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">4</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">TvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">14m13s</span></td>
     </tr><tr>
-    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12m25s</span></td>
+    <td style="background-color: #d2dfee;"><span style="color: #000000;">5</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">PvP</span></td><td style="background-color: #d2dfee;"><span style="color: #000000;">12m20s</span></td>
     </tr><tr>
-    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m16s</span></td>
+    <td style="background-color: #e2effe;"><span style="color: #000000;">6</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">ZvZ</span></td><td style="background-color: #e2effe;"><span style="color: #000000;">9m12s</span></td>
     </tr>  </tbody>
 </table>
 
@@ -1387,21 +1388,21 @@ Cross spawns has by far the strongest effect on the duration of PvZs, whereas it
 <h2>Series stats</h2>
 <h3 id="A3">The first game myth</h3>
 
-In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that
-
+In almost every single pre-series interview ever, one or both players states that they "just need to win the first map" and then they'll probably take the whole series. It's really remarkable how ubiquitous this belief is. (And by the way, why are those pre-series interviews always so boring?! Is it something about Korean culture? Whenever they're on, I keep thinking of all the stupid nonsense I'd be saying if I had the floor instead.) Anyway, that was actually what prompted me to start gathering all this data in the first place. This incessantly repeated claim just sounded spurious to me, so I wanted to check it. So I did, and I found that:
+<br/><br/>
 - The winner of game 1 ended up winning the Best-of-5 <span style="font-size: 18px"><b>73.1%</b></span> of the time.
-
+<br/><br/>
 That might look like a lot at first glance but we have to remember that obviously winning any one game in a best of 5 is going to drastically increase your chances of winning the whole series. To find out if the first game is really so important, what we can do is compare this figure to the same figure for games 2 and 3. Plugging those into the same query, we find that
-
-- The winner of game 2 ended up winning the Best-of-5 <span style="font-size: 18px"><b>71.1%</b></span> of the time, whereas
+<br/><br/>
+- The winner of game 2 ended up winning the Best-of-5 <span style="font-size: 18px"><b>71.1%</b></span> of the time, whereas<br/>
 - The winner of game 3 ended up winning the Best-of-5 <span style="font-size: 18px"><b>73.6%</b></span> of the time.
-
+<br/><br/>
 So winning game 1 is statistically less important than winning game 3, but really each game is almost exactly equally important. This is based on 201 Best-of-5s in the database. Running the same calculations for Best-of-7s actually indicates that game 2 is more important than any other game but that's based on only 45 recorded Best-of-7s and therefore tells us almost nothing.
-
+<br/><br/>
 In ASL Season 17, Soulkey became the first player to win an ASL finals series after losing the first game. This only goes to show that such streaks are bound to be broken sooner or later. Still, it was statistically remarkable while it lasted.
-
+<br/><br/>
 In conclusion:
-
+<br/>
 <img src="images/busted.png" alt="Busted!">
 <br/>
 
@@ -1412,45 +1413,45 @@ Players and casters often place some emphasis on the advantage of map selection.
 <h4><i>Being the one who selects the map is just as important in mirror matchups as in non-mirror matchups</i></h4>
 
 Generally speaking;
-
-- the player who chose the map went on to win the game in <span style="font-size: 18px"><b>54.3%</b></span> of cases, 
+<br/><br/>
+- the player who chose the map went on to win the game in <span style="font-size: 18px"><b>54.3%</b></span> of cases,<br/> 
 - whereas for mirror matchups only, the map chooser won <span style="font-size: 18px"><b>53.1%</b></span> of the time
-
+<br/><br/>
 This is surprising because the advantage of choosing a map is often chalked up to being about whether this map is generally good for your race in the given matchup or not.
-
+<br/><br/>
 The relatively low overall winrate for the map chooser seems partially to be due to the limited average range of choices. Once we get to the last few maps of the series, there might only be two or three maps left to choose from, which might not be much of an advantage. As such, we can see that when counting only the first map choice:
-
+<br/><br/>
 - the player who chose the first map won that game in <span style="font-size: 18px"><b>58.8%</b></span> of cases.
-
+<br/>
 <br/>
 <h3>Reverse sweeps</h3>
 
-The last series stat I've registered is the probability of reverse sweeps. In 201 Best-of-5s, we have seen seven reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at <span style="font-size: 18px"><b>6.8%</b></span>.
+The last series stat I've registered is the probability of reverse sweeps. In 201 Best-of-5s, we have seen seven reverse sweeps. The probability of making a reverse sweep in a Best-of-5 (i.e. the probability that if you're down 0-2, you go on to win the series) stands at <br/><br/><span style="font-size: 18px"><b>6.8%</b></span>.<br/><br/>
 
 In 45 Best-of-7s across ASL and KSL, there has never been a reverse sweep.
-
+<br/>
 <br/>
 <h3 id="A7">Seeds</h3>
 
 Having dealt with the first game myth, let's try to take on another pre-game-interview cliché: "My goal is to make it to the Round of 4 and get seeded for the next season". Further investigation shows that this cliché has somewhat more merit. Comparing the average season results of seeded players and non-seeded players, we get the following:
-
-- Average result of seeded player: **8.3**
+<br/><br/>
+- Average result of seeded player: **8.3**<br/>
 - Average result of non-seeded player: **14.8**
-
+<br/><br/>
 This means that the average result for a seeded player was roughly getting eliminated in the Round of 8, whereas the average result of a non-seeded player was roughly getting eliminated in the Round of 16. This is a really considerable advantage, and it should be noted I am comparing the **same set of players**, meaning the average result for non-seeded players listed here is the average result for *players who have been seeded in at least one season, in seasons where they were not seeded*. So the figures can't be explained by arguing that players who earn a seed are obviously just better than those who don't. More likely the explanation is that the ASL's Round of 24 with its Best-of-1 format is a real slaughterhouse that even the best players struggle to make it out of alive.
-
+<br/><br/>
 To further galvanize this point, becoming a seeded player greatly increases your chance of becoming a seeded player again in the next season:
-
-- Probability of gaining seed as already seeded player: <span style="font-size: 18px"><b>39.7%</b></span>
+<br/><br/>
+- Probability of gaining seed as already seeded player: <span style="font-size: 18px"><b>39.7%</b></span><br/>
 - Probability of gaining seed as non-seeded player: <span style="font-size: 18px"><b>17.3%</b></span>
-<br/>
+<br/><br/>
 <h3 id="A8">Decider matches: Winners' loser vs losers' winner</h3>
 
 That leaves just one more thing I wanted to check. Something has always bothered me about the double elimination format employed in starleague group stages. It seems unfair when there's a rematch in the decider match and the winner of the first match gets eliminated. Those players came out 1-1 on the night and although the advancing player did win the intervening match, that may only have been because he was facing easier opposition in the losers' match than the eliminated player was facing in the winners' match.
-
+<br/><br/>
 In any case, I found that across 176 decider matches,
-
-- Winners' loser advanced <span style="font-size: 18px"><b>53.8%</b></span> of the time, while
+<br/><br/>
+- Winners' loser advanced <span style="font-size: 18px"><b>53.8%</b></span> of the time, while<br/>
 - Losers' winner advanced <span style="font-size: 18px"><b>46.2%</b></span> of the time
 
 
@@ -1458,18 +1459,18 @@ In any case, I found that across 176 decider matches,
 <br/><br/>
 <h1>5. <span style="font-size: 24px;">(You must construct)</span> Additional notes</h1>
 Please get in touch if you have found any errors in these charts, if you feel there's something important I forgot to mention, or if you have any requests for insights you'd like me to pull from the database. Anything pertaining to game duration, map details, tournament results, series outcomes or temporal developments should be possible to draw from there. The database also includes some columns that I have not touched upon here, such as birth year of the players, year of publication for maps, ASL tiers, and Ro. 24 and Ro. 16 group affiliations. I have also categorized maps as island or standard but since so few games have been played on island maps, I can't really make any inferences about that. What I don't have is any information about build orders. That would be the next level. But it would be challenging to categorize the build orders in useful ways and very time-consuming to gather the data.
-
+<br/><br/>
 I would like to stress that I am not a statistician. I'm just a layperson with a basic understanding, doing my best. I haven't bothered to calculate p-values for all the charts, and my uncertainty assessments are just estimates. I apologize if you're a professional statistician and reading any of this has caused you to facepalm.
-
+<br/><br/>
 Feel free to copy these charts and tables but please link here if you publish them.
-
+<br/><br/>
 Thanks to Liquipedia for providing most of the data and to everyone who's keeping Starcraft alive during its very first century as the greatest game ever!
-
+<br/><br/>
 How to get in touch:
-
-Reddit: <a href="https://reddit.com/u/jacobvso">u/jacobvso</a>  
+<br/><br/>
+Reddit: <a href="https://reddit.com/u/jacobvso">u/jacobvso</a>  <br/>
 TL.net: <a href="https://tl.net/forum/profile.php?user=JackyVSO">JackyVSO</a>
-
+<br/><br/>
 If you're interested in a detailed explanation of how I did this, that is available [here](https://github.com/JackyVSO/Starcraft/blob/main/readme.md).
 
 <br/><br/>
