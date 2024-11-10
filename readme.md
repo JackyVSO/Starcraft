@@ -2,7 +2,6 @@
 
 # eSports data visualization
 
-#### *-- Nerdy pet project alert ! --*
 <br/>
 
 <span style="font-size: 20px;"> In this project, I built a SQL database and used Python, SQL, Matplotlib, HTML and CSS to analyze and visualize in-depth data from 2,000 eSports games.</span>
